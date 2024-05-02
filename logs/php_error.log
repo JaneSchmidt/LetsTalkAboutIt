@@ -329,3 +329,17 @@
 [30-Apr-2024 01:58:47 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
 [30-Apr-2024 01:58:57 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/SignUpView.php on line 8
 [30-Apr-2024 01:58:57 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 15:04:19 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
+[01-May-2024 15:04:19 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 15:04:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/LoginView.php on line 8
+[01-May-2024 15:04:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 15:04:23 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/SignUpView.php on line 8
+[01-May-2024 15:04:23 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 15:04:24 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/LoginView.php on line 8
+[01-May-2024 15:04:24 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 15:04:25 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
+[01-May-2024 15:04:25 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 16:45:36 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
+[01-May-2024 16:45:36 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[01-May-2024 16:56:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
+[01-May-2024 16:56:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2

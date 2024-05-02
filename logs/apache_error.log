@@ -9,3 +9,15 @@
 [Mon Apr 29 20:34:43.780507 2024] [php7:error] [pid 43536] [client ::1:56672] script '/Applications/MAMP/htdocs/Views/Login.php' not found or unable to stat, referer: http://localhost:8888/Views/HomeView.php
 [Mon Apr 29 20:38:37.580582 2024] [php7:error] [pid 43535] [client ::1:56678] script '/Applications/MAMP/htdocs/Views/Login.php' not found or unable to stat, referer: http://localhost:8888/Views/HomeView.php
 [Mon Apr 29 20:49:18.423198 2024] [php7:error] [pid 43536] [client ::1:56707] script '/Applications/MAMP/htdocs/Views/Login.php' not found or unable to stat, referer: http://localhost:8888/Views/HomeView.php
+[Mon Apr 29 22:05:15.194928 2024] [mpm_prefork:notice] [pid 43527] AH00169: caught SIGTERM, shutting down
+[Wed May 01 11:03:28.883535 2024] [:notice] [pid 59312] FastCGI: process manager initialized (pid 59312)
+[Wed May 01 11:03:28.886376 2024] [mpm_prefork:notice] [pid 59309] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Wed May 01 11:03:28.886523 2024] [core:notice] [pid 59309] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Wed May 01 11:10:22.023299 2024] [mpm_prefork:notice] [pid 59309] AH00169: caught SIGTERM, shutting down
+[Wed May 01 11:59:16.070936 2024] [:notice] [pid 9496] FastCGI: process manager initialized (pid 9496)
+[Wed May 01 11:59:16.073277 2024] [mpm_prefork:notice] [pid 9471] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Wed May 01 11:59:16.073790 2024] [core:notice] [pid 9471] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Wed May 01 17:57:10.532158 2024] [mpm_prefork:notice] [pid 9471] AH00169: caught SIGTERM, shutting down
+[Thu May 02 14:15:06.945140 2024] [:notice] [pid 51922] FastCGI: process manager initialized (pid 51922)
+[Thu May 02 14:15:06.946477 2024] [mpm_prefork:notice] [pid 51919] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Thu May 02 14:15:06.946731 2024] [core:notice] [pid 51919] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
