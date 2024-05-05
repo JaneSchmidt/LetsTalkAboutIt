@@ -8,10 +8,10 @@
   <body>
     <nav class="navbar">
         <div class="navdiv">
-            <div class="logo"><a href="../Views/HomeView.php"><img src="../Attributes/logo.jpg" /></a></div>
+            <div class="logo"><a href="/"><img src="../Attributes/logo.jpg" /></a></div>
             <ul>
-                <li><a href="../Views/LoginView.php">SignIn</a></li>
-                <li><a href="../Views/SignUpView.php">SignUp</a></li>
+                <li><a href="login">SignIn</a></li>
+                <li><a href="register">SignUp</a></li>
             </ul>
         </div>
     </nav>

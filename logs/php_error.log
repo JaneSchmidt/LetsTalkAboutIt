@@ -343,3 +343,321 @@
 [01-May-2024 16:45:36 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
 [01-May-2024 16:56:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
 [01-May-2024 16:56:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 18:25:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 8
+[02-May-2024 18:25:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 18:25:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/LoginView.php on line 8
+[02-May-2024 18:25:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 18:26:03 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/SignUpView.php on line 8
+[02-May-2024 18:26:03 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 18:58:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/SignUpView.php on line 8
+[02-May-2024 18:58:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:37:27 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:37:27 UTC] PHP Warning:  require(router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:37:27 UTC] PHP Fatal error:  require(): Failed opening required 'router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:37:31 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:37:31 UTC] PHP Warning:  require(router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:37:31 UTC] PHP Fatal error:  require(): Failed opening required 'router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:37:37 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:37:37 UTC] PHP Warning:  require(router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:37:37 UTC] PHP Fatal error:  require(): Failed opening required 'router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/HomeView.php on line 49
+[02-May-2024 19:38:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:38:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:39:00 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/LoginView.php on line 2
+[02-May-2024 19:39:00 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:39:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:39:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:40:01 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[02-May-2024 19:40:01 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:42:17 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:42:17 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/HomeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:42:21 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:42:21 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/HomeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:42:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[02-May-2024 19:42:39 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/HomeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:42:42 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:42:42 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/homeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:43:56 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:43:56 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/homeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:44:00 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:44:00 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/homeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:44:17 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:44:17 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/homeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:44:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:44:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:44:42 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:44:42 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/App/router.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/Views/homeView.php(49): require()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/App/router.php on line 3
+[02-May-2024 19:44:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:44:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:45:18 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:45:18 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:45:28 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[02-May-2024 19:45:28 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:46:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:46:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:46:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[02-May-2024 19:46:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:52:48 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 19:52:48 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 19:52:50 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[02-May-2024 19:52:50 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/NavBar.php on line 2
+[02-May-2024 20:07:35 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:07:35 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:07:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 5 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(5): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:07:56 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:07:56 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:07:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 5 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(5): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:09:07 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:07 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:38 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:38 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:38 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 6 and defined in /Applications/MAMP/htdocs/index.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(6): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 8
+[02-May-2024 20:09:56 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:56 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:09:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 6 and defined in /Applications/MAMP/htdocs/index.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(6): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 8
+[02-May-2024 20:10:04 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:10:04 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:10:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 6 and defined in /Applications/MAMP/htdocs/index.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(6): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 8
+[02-May-2024 20:10:16 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:10:16 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:10:16 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:10:38 UTC] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:10:38 UTC] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:15 UTC] PHP Warning:  include_once(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:15 UTC] PHP Warning:  include_once(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:11:22 UTC] PHP Warning:  include_once(routes.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:22 UTC] PHP Warning:  include_once(): Failed opening 'routes.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:22 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:11:44 UTC] PHP Warning:  include_once(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:44 UTC] PHP Warning:  include_once(): Failed opening '../App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:11:44 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:12:17 UTC] PHP Notice:  Undefined variable: _routes in /Applications/MAMP/htdocs/index.php on line 5
+[02-May-2024 20:12:22 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:12:22 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:12:22 UTC] PHP Notice:  Undefined variable: _routes in /Applications/MAMP/htdocs/index.php on line 5
+[02-May-2024 20:12:53 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:12:53 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:12:53 UTC] PHP Notice:  Undefined variable: _routes in /Applications/MAMP/htdocs/index.php on line 5
+[02-May-2024 20:12:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:13:01 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:01 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:01 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:13:14 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:14 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to run() must be of the type array, bool given, called in /Applications/MAMP/htdocs/index.php on line 18 and defined in /Applications/MAMP/htdocs/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(18): run('/', false)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/index.php on line 7
+[02-May-2024 20:13:22 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:22 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:31 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:31 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:41 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:13:41 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:14:04 UTC] PHP Warning:  include_once(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:14:04 UTC] PHP Warning:  include_once(): Failed opening '/App/router.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:32:55 UTC] PHP Warning:  require(/App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:32:55 UTC] PHP Fatal error:  require(): Failed opening required '/App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 3
+[02-May-2024 20:37:29 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 20:37:29 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[02-May-2024 20:37:29 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[02-May-2024 20:37:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[02-May-2024 20:37:53 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[02-May-2024 20:37:53 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:11:13 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:11:13 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:11:13 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:11:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:11:30 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:11:30 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:17:53 UTC] PHP Warning:  require(/Views/homeView.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 10
+[04-May-2024 23:17:53 UTC] PHP Fatal error:  require(): Failed opening required '/Views/homeView.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 10
+[04-May-2024 23:19:57 UTC] PHP Warning:  include(/Views/homeView.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 10
+[04-May-2024 23:19:57 UTC] PHP Warning:  include(): Failed opening '/Views/homeView.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 10
+[04-May-2024 23:22:03 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:22:03 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:22:03 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:23:14 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:23:14 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:23:14 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:23:29 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:23:29 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:23:29 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:24:09 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:24:09 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:24:09 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:24:44 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:24:44 UTC] PHP Warning:  require(../App/router.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:24:44 UTC] PHP Fatal error:  require(): Failed opening required '../App/router.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:25:19 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:25:19 UTC] PHP Warning:  include(../Attributes/NavBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:25:19 UTC] PHP Warning:  include(): Failed opening '../Attributes/NavBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:26:05 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:26:05 UTC] PHP Warning:  include(../Attributes/NavBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:26:05 UTC] PHP Warning:  include(): Failed opening '../Attributes/NavBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:28:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:28:35 UTC] PHP Warning:  include(../Attributes/NavBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:28:35 UTC] PHP Warning:  include(): Failed opening '../Attributes/NavBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:29:21 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:29:21 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:29:21 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:30:11 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:30:11 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:30:11 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:30:51 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:30:51 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:30:51 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:31:20 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:31:20 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:31:20 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:33:13 UTC] PHP Warning:  require(/Views/homeView.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 9
+[04-May-2024 23:33:13 UTC] PHP Fatal error:  require(): Failed opening required '/Views/homeView.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 9
+[04-May-2024 23:33:50 UTC] PHP Warning:  require(../Views/homeView.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/index.php on line 9
+[04-May-2024 23:33:50 UTC] PHP Fatal error:  require(): Failed opening required '../Views/homeView.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/index.php on line 9
+[04-May-2024 23:33:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:33:58 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:33:58 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:34:21 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[04-May-2024 23:34:21 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:34:21 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:36:02 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[04-May-2024 23:36:02 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:36:02 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:37:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[04-May-2024 23:37:55 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:37:55 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:38:29 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:38:29 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:38:29 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:43:44 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:43:44 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:43:44 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:50:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:50:22 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:50:22 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:59:02 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[04-May-2024 23:59:02 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:59:02 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:59:08 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[04-May-2024 23:59:08 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:59:08 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/homeView.php on line 49
+[04-May-2024 23:59:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[04-May-2024 23:59:12 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:59:12 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[04-May-2024 23:59:56 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:00:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:00:22 UTC] PHP Warning:  require(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:00:22 UTC] PHP Fatal error:  require(): Failed opening required '../Attributes/navBar.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:00:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:00:30 UTC] PHP Warning:  include(../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:00:30 UTC] PHP Warning:  include(): Failed opening '../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:01:02 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:01:02 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/Views../Attributes/navBar.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:01:02 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/Views../Attributes/navBar.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Views/loginView.php on line 9
+[05-May-2024 00:01:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:01:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:01:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:01:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:01:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[05-May-2024 00:01:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:01:41 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:01:41 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:04:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:04:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:04:44 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/HomeView.php on line 2
+[05-May-2024 00:04:44 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:04:46 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/index.php on line 8
+[05-May-2024 00:04:46 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[05-May-2024 00:04:46 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:04:49 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/index.php on line 8
+[05-May-2024 00:04:49 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[05-May-2024 00:04:49 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:05:11 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[05-May-2024 00:05:11 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:05:26 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:05:26 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:06:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:06:30 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:06:32 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[05-May-2024 00:06:32 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:06:34 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 2
+[05-May-2024 00:06:34 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 00:06:36 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[05-May-2024 00:06:36 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2

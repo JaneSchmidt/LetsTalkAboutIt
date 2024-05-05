@@ -1,9 +1,3 @@
-<?php
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
   <head>
@@ -51,7 +45,9 @@
     </style>
   </head>
   <body>
-    <?php include '../Attributes/NavBar.php' ?>
+    <?php 
+      include __DIR__ . "/../Attributes/navBar.php";
+    ?>
       <p> Hello </p>
   </body>
 </html>

@@ -1,9 +1,3 @@
-<?php
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
   <head>
@@ -11,7 +5,9 @@
     <link rel="stylesheet" href="../Styling/LoginStyle.css">
   </head>
   <body>
-    <?php include '../Attributes/NavBar.php' ?>
+    <?php 
+      include __DIR__ . "/../Attributes/navBar.php";
+    ?>
         <div class= "form">
             <form>
                 <fieldset>
