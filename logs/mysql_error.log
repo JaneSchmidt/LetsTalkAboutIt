@@ -274,3 +274,5 @@ Version: '5.7.39'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889
 2024-05-04T23:08:34.373924Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: Shutdown complete
 
 2024-05-04T23:08:34.6NZ mysqld_safe A mysqld process with pid=73615 is already running. Aborting!!
+2024-05-05T00:58:19.193107Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47074ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-05T01:27:08.238902Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 223864ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

@@ -1,3 +1,8 @@
+<!-- To Do:
+  required stars
+
+-->
+
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
   <head>
@@ -9,7 +14,7 @@
       include __DIR__ . "/../Attributes/navBar.php";
     ?>
         <div class= "form">
-            <form>
+            <form action = "/getLoggedIn" method = "get">
                 <fieldset>
                     <legend>Sign In</legend>
                     <label for="username">Username:</label>

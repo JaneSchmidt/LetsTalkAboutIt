@@ -1,3 +1,8 @@
+<!-- To Do:
+  required stars
+
+-->
+
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
   <head>
@@ -9,13 +14,13 @@
       include __DIR__ . "/../Attributes/navBar.php";
     ?>
         <div class= "form">
-            <form method = "post" action = "/register">
+            <form method = "post" action = "/getRegistered">
                 <fieldset>
                     <legend>Sign Up</legend>
-                    <label for="username">First Name:</label>
-                    <input type="text" id="username" name="username" required/>
-                    <label for="password">Last Name:</label><br>
-                    <input type="text" id="password" name="password" required/>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required/>
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" id="last-name" name="last-name"/>
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" required/>
                     <label for="password">Password:</label><br>

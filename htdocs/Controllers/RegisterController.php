@@ -1,19 +1,20 @@
 <?php
 
-namespace Controllers\RegisterController;
+
 
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
-
+include "registerModel.php";
 
 class RegisterController{
 
 
-    public function register(Request $request, Response $response): Response{
-
-        $data = $request->getParsedBody();
-        var_dump($data);
+    // will return a response 
+    public static function registerRequest(){
+        var_dump($_POST);
+        $data = $_POST;
+        $model = new RegisterModel;
+        $user = $model->createUser($data);
         
-        return $response;
     }
 }
