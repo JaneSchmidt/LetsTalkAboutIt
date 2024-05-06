@@ -28,3 +28,7 @@
 [Sat May 04 19:06:54.344610 2024] [mpm_prefork:notice] [pid 73738] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
 [Sat May 04 19:06:54.344799 2024] [core:notice] [pid 73738] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
 [Sat May 04 19:32:20.079071 2024] [php7:error] [pid 73760] [client ::1:50457] script '/Applications/MAMP/htdocs/homeView.php' not found or unable to stat
+[Sat May 04 22:58:05.053071 2024] [mpm_prefork:notice] [pid 73738] AH00169: caught SIGTERM, shutting down
+[Mon May 06 13:17:19.686905 2024] [:notice] [pid 98837] FastCGI: process manager initialized (pid 98837)
+[Mon May 06 13:17:19.688087 2024] [mpm_prefork:notice] [pid 98834] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon May 06 13:17:19.688256 2024] [core:notice] [pid 98834] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'

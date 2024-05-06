@@ -1,10 +1,6 @@
 <?php
 
-
-
-use Psr\Http\Message\ServerRequestInterface as Request;
-use Psr\Http\Message\ResponseInterface as Response;
-include "registerModel.php";
+include "/../Models/registerModel.php";
 
 class RegisterController{
 

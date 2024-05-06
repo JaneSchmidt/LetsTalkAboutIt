@@ -723,3 +723,23 @@ Stack trace:
 [05-May-2024 02:39:01 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
 [05-May-2024 02:39:08 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
 [05-May-2024 02:39:08 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[05-May-2024 02:57:45 UTC] PHP Warning:  include(registerModel.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Controllers/registerController.php on line 7
+[05-May-2024 02:57:45 UTC] PHP Warning:  include(): Failed opening 'registerModel.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Controllers/registerController.php on line 7
+[05-May-2024 02:57:45 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 7
+[05-May-2024 02:57:45 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[06-May-2024 17:24:12 UTC] PHP Warning:  include(registerModel.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:24:12 UTC] PHP Warning:  include(): Failed opening 'registerModel.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:24:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[06-May-2024 17:24:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[06-May-2024 17:25:02 UTC] PHP Warning:  include(/../Models/registerModel.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:02 UTC] PHP Warning:  include(): Failed opening '/../Models/registerModel.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:02 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[06-May-2024 17:25:02 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[06-May-2024 17:25:50 UTC] PHP Warning:  include(/../Models/registerModel.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:50 UTC] PHP Warning:  include(): Failed opening '/../Models/registerModel.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:50 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 7
+[06-May-2024 17:25:50 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[06-May-2024 17:25:52 UTC] PHP Warning:  include(/../Models/registerModel.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:52 UTC] PHP Warning:  include(): Failed opening '/../Models/registerModel.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.4.33/lib/php') in /Applications/MAMP/htdocs/Controllers/registerController.php on line 9
+[06-May-2024 17:25:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[06-May-2024 17:25:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2

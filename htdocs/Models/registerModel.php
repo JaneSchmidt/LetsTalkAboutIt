@@ -11,8 +11,7 @@ class RegisterModel{
         $newUser = new User($data["first-name"], 
                             $data["last-name"], 
                             $data["username"], 
-                            $data["password"], 
-                            $data["confirm-password"]);
+                            $data["password"]);
 
         return $newUser;
     }
