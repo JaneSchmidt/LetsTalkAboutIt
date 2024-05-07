@@ -32,6 +32,8 @@ switch($requestArr["path"]){
     LoginController::loginRequest();
   case "/getRegistered":
     RegisterController::registerRequest();
+  // case "/connection":
+  //   require("Database/connection.php");
   default:
     require("Views/homeView.php");
     break; 

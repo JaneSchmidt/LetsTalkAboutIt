@@ -3,7 +3,7 @@
 class User{
     
     private $firstname;
-    private $lastName;
+    private $lastname;
     private $username;
     private $password;
 
@@ -18,6 +18,22 @@ class User{
         $this->username = $username;
         $this->password = $password;
         
+    }
+
+    public function getFirstName():string{
+        return $this->firstname;
+    }
+
+    public function getLastName():string{
+        return $this->firstname;
+    }
+
+    public function getUsername():string{
+        return $this->firstname;
+    }
+
+    public function getPassword():string{
+        return $this->firstname;
     }
 
     
