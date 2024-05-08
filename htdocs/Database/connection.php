@@ -1,24 +1,23 @@
 <?php
-  $db_host = 'localhost';
-  $db_user = 'root';
-  $db_password = 'root';
-  $db_db = 'lets_talk_about_it';
-  $db_port = 8889;
+define('HOSTNAME', 'localhost');
+define('USERNAME', 'root');
+define('PASSWORD', 'root');
+define('SCHEMA', 'lets_talk_about_it');
+define('PORT', 8889);
 
-  $mysqli = new mysqli(
-    $db_host,
-    $db_user,
-    $db_password,
-    $db_db
-  );
+class Connection {
+
 	
-  $connection = mysqli_connect($db_host, $db_user, $db_password, $db_db);
+  public static function getConnection(){
+    $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
   
-  if (!$connection){
-    echo 'Error: A proper connection to MySQL was NOT made.';
-  } else {
-    echo 'Success: A proper connection to MySQL was made.';
-    echo '<br>';
+    // if (!$connection){
+    //   echo 'Error: A proper connection to MySQL was NOT made.';
+    // } else {
+    //   echo 'Success: A proper connection to MySQL was made.';
+    //   echo '<br>';
+    // }
+  
+    return $connection;
   }
-
-  $mysqli->close();
+}
