@@ -25,15 +25,15 @@ class User{
     }
 
     public function getLastName():string{
-        return $this->firstname;
+        return $this->lastname;
     }
 
     public function getUsername():string{
-        return $this->firstname;
+        return $this->username;
     }
 
     public function getPassword():string{
-        return $this->firstname;
+        return $this->password;
     }
 
     

@@ -2,7 +2,7 @@
 <html lang="<?php echo $language; ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../Styling/LoginStyle.css">
+    <link rel="stylesheet" href="../Styling/loginStyle.css">
   </head>
   <body>
     <?php 

@@ -1,0 +1,26 @@
+.subject {
+    color: black;
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.content {
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    font-size: 16px;
+    max-width: 470px;
+  }
+
+  .blog {
+    grid-template-columns: repeat(auto-fill, 40px);
+  }
+
+  .blog-post {
+    max-width: 550px;
+    border: 0;
+    width: 100%;
+    margin-inline: auto;
+  }

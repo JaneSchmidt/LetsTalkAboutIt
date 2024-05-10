@@ -6,7 +6,6 @@ include __DIR__ . "/../Database/connection.php";
 
 class registerModel{
 
-
     public function createUser(array $data) {
 
         $newUser = new User($data["first-name"], 
@@ -18,16 +17,23 @@ class registerModel{
     }
 
     public function storeUser(User $newUser){
-        $query= ("SELECT * FROM users;");
-        // $query = "INSERT INTO users (userID, firstname, lastname, username, pass) 
-        //           VALUES (" . 2 . ", ". $newUser->getFirstName() . ", " . $newUser->getLastName() . 
-        //           ", " . $newUser->getUsername() . ", " . $newUser->getPassword() . ");";
-
-        //var_dump($query);
+        $firstName = $newUser->getFirstName();
+        $lastName = $newUser->getLastName();
+        $username = $newUser->getUsername();
+        $pass = $newUser->getPassword();
+        $query = "INSERT INTO users (userID, firstname, lastname, username, pass) 
+                  VALUES (4, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
+        
         $connection = Connection::getConnection();
         
         $result = mysqli_query($connection, $query);
         var_dump($result);
+
+        if(!$result){
+            echo "Query failed";
+        } else {
+            header('location: /login');
+        }
 
     }
 }
