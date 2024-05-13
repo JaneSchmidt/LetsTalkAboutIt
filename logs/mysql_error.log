@@ -1,0 +1,67 @@
+2024-05-12T19:57:14.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
+2024-05-12T19:57:14.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
+2024-05-12T19:57:15.042341Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-12T19:57:15.043202Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-05-12T19:57:15.043545Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.39) starting as process 22742 ...
+2024-05-12T19:57:15.048277Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
+2024-05-12T19:57:15.051787Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-05-12T19:57:15.051795Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-12T19:57:15.051799Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-05-12T19:57:15.051803Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-05-12T19:57:15.052688Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-12T19:57:15.053980Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-12T19:57:15.054633Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-12T19:57:15.058221Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-12T19:57:15.074029Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-12T19:57:15.092715Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-12T19:57:15.092793Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-12T19:57:15.096887Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-05-12T19:57:15.097203Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-12T19:57:15.097210Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-12T19:57:15.097928Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-12T19:57:15.152986Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 2801853
+2024-05-12T19:57:15.153072Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
+2024-05-12T19:57:15.153385Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-12T19:57:15.156387Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-12T19:57:15.156411Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-12T19:57:15.161719Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240512 15:57:15
+2024-05-12T19:57:15.170068Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-05-12T19:57:15.170079Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-05-12T19:57:15.170086Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2024-05-12T19:57:15.170089Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2024-05-12T19:57:15.171868Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-05-12T19:57:15.172274Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-05-12T19:57:15.172601Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
+2024-05-12T19:57:15.172785Z 0 [Note] IPv6 is available.
+2024-05-12T19:57:15.172793Z 0 [Note]   - '::' resolves to '::';
+2024-05-12T19:57:15.172812Z 0 [Note] Server socket created on IP: '::'.
+2024-05-12T19:57:15.173010Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-05-12T19:57:15.187907Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
+2024-05-12T19:57:15.188407Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-12T19:57:15.188470Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.39'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
+2024-05-12T20:42:16.516518Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 87684ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T22:05:40.060794Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 948181ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T22:22:45.653440Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 94596ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T22:42:24.728960Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 800458ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T22:45:00.040472Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 124235ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:00:21.729515Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 914624ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:06:48.775239Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 380923ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:24:06.305120Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1030495ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:31:39.146356Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 446798ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:43:48.869480Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 722665ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:44:04.183231Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9268ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:45:44.239374Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 93008ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-12T23:57:33.438675Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 702142ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T00:14:32.134761Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1011637ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T00:43:49.895659Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1753732ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T00:59:37.381522Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 940417ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T01:17:36.074025Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1074645ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T01:33:22.886890Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 942781ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T01:44:51.562609Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 683630ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T01:53:24.907965Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 507299ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T02:10:35.500110Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1023539ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T02:27:01.198191Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 981660ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T02:42:38.552626Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 932325ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T02:45:52.242858Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 189667ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-13T03:02:28.167596Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 989885ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

@@ -1,10 +1,13 @@
 *{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .navdiv{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    position:fixed;
 }
 li{
     list-style: none;
