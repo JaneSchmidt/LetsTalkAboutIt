@@ -30,8 +30,10 @@ switch($requestArr["path"]){
     break;
   case "/getLoggedIn":
     LoginController::loginRequest();
+    break;
   case "/getRegistered":
     RegisterController::registerRequest();
+    break;
   // case "/connection":
   //   require("Database/connection.php");
   default:

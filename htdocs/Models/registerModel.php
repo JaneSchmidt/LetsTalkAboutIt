@@ -13,7 +13,7 @@ class registerModel{
                             $data["username"], 
                             $data["password"]);
 
-        $this->storeUser($newUser);
+        return $this->storeUser($newUser);
     }
 
     public function storeUser(User $newUser){
@@ -22,7 +22,7 @@ class registerModel{
         $username = $newUser->getUsername();
         $pass = $newUser->getPassword();
         $query = "INSERT INTO users (userID, firstname, lastname, username, pass) 
-                  VALUES (4, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
+                  VALUES (6, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
         
         $connection = Connection::getConnection();
         
@@ -30,9 +30,9 @@ class registerModel{
         var_dump($result);
 
         if(!$result){
-            echo "Query failed";
+            return(0);
         } else {
-            header('location: /login');
+            return(1);
         }
 
     }

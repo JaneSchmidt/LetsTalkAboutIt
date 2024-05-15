@@ -2,7 +2,7 @@
 <html lang="<?php echo $language; ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../Styling/NavBarStyle.css">
+    <link rel="stylesheet" href="../Styling/navBarStyle.css">
 
   </head>
   <body>

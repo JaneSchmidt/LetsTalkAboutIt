@@ -7,7 +7,7 @@
 <html lang="<?php echo $language; ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../Styling/LoginStyle.css">
+    <link rel="stylesheet" href="../Styling/login.css">
   </head>
   <body>
     <?php 
@@ -27,7 +27,7 @@
                     <input type="text" id="password" name="password" required/>
                     <label for="confirm-password">Confirm Password:</label><br>
                     <input type="text" id="confirm-password" name="confirm-password" required/>
-                    <input type="submit" value="Sign Up"/>
+                    <input class="submit-button" type="submit" value="Sign Up"/>
                 </fieldset>
         </div>
   </body>

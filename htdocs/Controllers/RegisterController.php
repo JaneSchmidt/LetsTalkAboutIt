@@ -16,10 +16,15 @@ class RegisterController{
 
     // will return a response 
     public static function registerRequest(){
+        echo "why is this being called";
         $data = $_POST;
         $model = new RegisterModel;
         $user = $model->createUser($data);
-        var_dump($user);
+        if($user){
+            header('Location: /login');
+        } else {
+            echo("error occured");
+        }
         
     }
 }
