@@ -1,20 +1,24 @@
 <?php 
-ini_set("display_errors", 1);
-error_reporting(E_ALL);
+
+
+include __DIR__ . "/../Models/loginModel.php";
 class LoginController{
 
 
     // will return a response
     public static function loginRequest(){
-        var_dump($_GET);
         $username = $_GET["username"];
-        $password = $_GET["password"];
+
+        $hashedPass = password_hash($_GET["password"], PASSWORD_BCRYPT);
+
+
         $model = new loginModel();
-        $result = $model->verifyUser($username, $password);
-        if($result === "Success"){
-            header('Location: /');
+        $result = $model->verifyUser($username, $hashedPass);
+        if(!$result){
+            echo "Username or password is incorrect";
         } else {
-            echo $result;
+            header("Location: /");
+            // echo $result["firstname"] . $result["lastname"];
         }
     }
 

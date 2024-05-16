@@ -3,7 +3,6 @@
 include __DIR__ . "/../Entity/User.php";
 include __DIR__ . "/../Database/connection.php";
 
-
 class registerModel{
 
     public function createUser(array $data) {
@@ -21,9 +20,11 @@ class registerModel{
         $lastName = $newUser->getLastName();
         $username = $newUser->getUsername();
         $pass = $newUser->getPassword();
+
         $query = "INSERT INTO users (userID, firstname, lastname, username, pass) 
-                  VALUES (6, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
+                  VALUES (8, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
         
+
         $connection = Connection::getConnection();
         
         $result = mysqli_query($connection, $query);

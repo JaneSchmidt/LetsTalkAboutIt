@@ -1894,3 +1894,75 @@ Stack trace:
 #2 /Applications/MAMP/htdocs/index.php(34): RegisterController::registerRequest()
 #3 {main}
   thrown in /Applications/MAMP/htdocs/Entity/User.php on line 10
+[16-May-2024 20:01:56 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:01:56 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:01:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:01:58 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:02:04 UTC] PHP Fatal error:  Uncaught Error: Class 'loginModel' not found in /Applications/MAMP/htdocs/Controllers/loginController.php:12
+Stack trace:
+#0 /Applications/MAMP/htdocs/index.php(32): LoginController::loginRequest()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/Controllers/loginController.php on line 12
+[16-May-2024 20:03:56 UTC] PHP Notice:  Constant HOSTNAME already defined in /Applications/MAMP/htdocs/Database/connection.php on line 2
+[16-May-2024 20:03:56 UTC] PHP Notice:  Constant USERNAME already defined in /Applications/MAMP/htdocs/Database/connection.php on line 3
+[16-May-2024 20:03:56 UTC] PHP Notice:  Constant PASSWORD already defined in /Applications/MAMP/htdocs/Database/connection.php on line 4
+[16-May-2024 20:03:56 UTC] PHP Notice:  Constant SCHEMA already defined in /Applications/MAMP/htdocs/Database/connection.php on line 5
+[16-May-2024 20:03:56 UTC] PHP Notice:  Constant PORT already defined in /Applications/MAMP/htdocs/Database/connection.php on line 6
+[16-May-2024 20:03:56 UTC] PHP Fatal error:  Cannot declare class Connection, because the name is already in use in /Applications/MAMP/htdocs/Database/connection.php on line 8
+[16-May-2024 20:05:01 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:05:01 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:05:03 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:05:03 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:05:06 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:05:06 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:05:17 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:05:17 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:05:20 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:05:20 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:07:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:07:52 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:07:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:07:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:11:51 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:11:51 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:11:54 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:11:54 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:12:05 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:12:05 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:23:18 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:23:18 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:23:20 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:23:20 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:23:34 UTC] PHP Notice:  Undefined index: num_rows in /Applications/MAMP/htdocs/Models/loginModel.php on line 15
+[16-May-2024 20:25:51 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:25:51 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:25:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:25:53 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:26:12 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/Models/loginModel.php on line 16
+[16-May-2024 20:27:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:27:12 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:27:13 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:27:13 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:28:59 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:28:59 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:29:00 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:29:00 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:30:55 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/Controllers/loginController.php on line 17
+[16-May-2024 20:32:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:32:35 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:32:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 7
+[16-May-2024 20:32:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:32:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 20:32:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 20:32:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 20:32:40 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 21:41:38 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/homeView.php on line 2
+[16-May-2024 21:41:38 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 21:41:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 7
+[16-May-2024 21:41:39 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 21:46:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 21:46:55 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 21:47:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/registerView.php on line 7
+[16-May-2024 21:47:43 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
+[16-May-2024 21:48:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Views/loginView.php on line 2
+[16-May-2024 21:48:22 UTC] PHP Notice:  Undefined variable: language in /Applications/MAMP/htdocs/Attributes/navBar.php on line 2
