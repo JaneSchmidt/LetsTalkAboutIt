@@ -1,6 +1,7 @@
 <?php
 
-class User{
+class User
+{
     
     private $firstname;
     private $lastname;
@@ -20,21 +21,24 @@ class User{
         
     }
 
-    public function getFirstName():string{
+    public function getFirstName():string
+    {
         return $this->firstname;
     }
 
-    public function getLastName():string{
+    public function getLastName():string
+    {
         return $this->lastname;
     }
 
-    public function getUsername():string{
+    public function getUsername():string
+    {
         return $this->username;
     }
 
-    public function getPassword():string{
+    public function getPassword():string
+    {
         return $this->password;
     }
-
     
 }

@@ -1,6 +1,7 @@
 <?php
 
-class Article{
+class Article
+{
     
     private $subject;
     private $content;
@@ -10,46 +11,55 @@ class Article{
 
 
 
-    public function setSubject(string $subject){
+    public function setSubject(string $subject)
+    {
         $this->subject = $subject;
     }
 
-    public function setContent(string $content){
+    public function setContent(string $content)
+    {
         $this->content = $content;
     }
 
-    public function setFirstName(string $FirstName){
+    public function setFirstName(string $FirstName)
+    {
         $this->FirstName = $FirstName;
     }
 
-    public function setLastName(string $LastName){
+    public function setLastName(string $LastName)
+    {
         $this->LastName = $LastName;
     }
 
-    public function setCreationDate(string $creationDate){
+    public function setCreationDate(string $creationDate)
+    {
         $this->creationDate = $creationDate;
     }
 
-    public function getsubject():string{
+    public function getsubject():string
+    {
         return $this->subject;
     }
 
-    public function getcontent():string{
+    public function getcontent():string
+    {
         return $this->content;
     }
 
-    public function getFirstName():string{
+    public function getFirstName():string
+    {
         return $this->FirstName;
     }
 
-    public function getLastName(): string{
+    public function getLastName(): string
+    {
         return $this->LastName;
     }
 
 
-    public function getcreationDate():string{
+    public function getcreationDate():string
+    {
         return $this->creationDate;
     }
 
-    
 }

@@ -5,18 +5,8 @@ error_reporting(E_ALL);
 include "Controllers/loginController.php";
 include "Controllers/registerController.php";
 
-
 $request = $_SERVER["REQUEST_URI"];
 $requestArr = parse_url($request);
-
-
-/*
-to do: 
-
-namespaces
-
-
-*/
 
 switch($requestArr["path"]){
   case "/":

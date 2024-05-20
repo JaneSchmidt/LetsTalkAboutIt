@@ -1,19 +1,15 @@
 <?php
 
+class loginModel
+{
+    public function getUserInfo(string $username)
+    {
 
-
-
-class loginModel{
-
-    public function verifyUser(string $username, string $password){
-        $query = "SELECT firstname, lastname FROM users WHERE username = \"$username\" AND pass = \"$password\";";
-        
+        $query = "SELECT firstname, lastname FROM users WHERE username = \"$username\";";
         $connection = Connection::getConnection();
-        
         $result = mysqli_query($connection, $query);
         $nameRow = mysqli_fetch_assoc($result);
-
-        return $nameRow;
+        header('Location: /');
     }
 
 

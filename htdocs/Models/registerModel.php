@@ -1,11 +1,17 @@
 <?php
 
-include __DIR__ . "/../Entity/User.php";
+include __DIR__ . "/../Entity/user.php";
 include __DIR__ . "/../Database/connection.php";
 
-class registerModel{
+class RegisterModel
+{
 
-    public function createUser(array $data) {
+    public function formValidation(array $data){
+
+        
+    }
+    public function createUser(array $data) 
+    {
 
         $newUser = new User($data["first-name"], 
                             $data["last-name"], 
@@ -15,14 +21,15 @@ class registerModel{
         return $this->storeUser($newUser);
     }
 
-    public function storeUser(User $newUser){
+    public function storeUser(User $newUser)
+    {
         $firstName = $newUser->getFirstName();
         $lastName = $newUser->getLastName();
         $username = $newUser->getUsername();
         $pass = $newUser->getPassword();
 
-        $query = "INSERT INTO users (userID, firstname, lastname, username, pass) 
-                  VALUES (8, \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
+        $query = "INSERT INTO users (firstname, lastname, username, pass) 
+                  VALUES ( \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
         
 
         $connection = Connection::getConnection();

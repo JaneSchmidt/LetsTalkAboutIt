@@ -1,10 +1,12 @@
 <?php
 
-include __DIR__ . "/../Entity/Article.php";
+include __DIR__ . "/../Entity/article.php";
 
-class HomeModel{
+class HomeModel
+{
 
-    public static function getArticles(){
+    public static function getArticles()
+    {
         $result = [];
         
         $query = "SELECT * FROM articles;";

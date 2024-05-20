@@ -7,8 +7,10 @@
   <body class="container">
     <?php 
       include __DIR__ . "/../Attributes/navBar.php";
-      include __DIR__ . "/../Models/HomeModel.php";
+      include __DIR__ . "/../Models/homeModel.php";
     ?>
+
+    <br/>
 
     <h1 class="header">
       Let's Talk About It
@@ -21,10 +23,7 @@
         $result = $model->getArticles();
 
         foreach($result as $article) {
-      
-
       ?>  
-
         <div class="blog-post">
 
           <header class="subject">

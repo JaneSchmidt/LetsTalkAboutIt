@@ -10,8 +10,8 @@
         <div class="navdiv">
             <div class="logo"><a href="/"><img src="../Attributes/logo.jpg" /></a></div>
             <ul>
-                <li><a href="login">SignIn</a></li>
-                <li><a href="register">SignUp</a></li>
+                <li><a class="sign-in-button" href="login">SignIn</a></li>
+                <li><a class="sign-up-button" href="register">SignUp</a></li>
             </ul>
         </div>
     </nav>

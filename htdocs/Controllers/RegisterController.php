@@ -2,7 +2,8 @@
 
 include __DIR__ . "/../Models/registerModel.php";
 
-class RegisterController{
+class RegisterController
+{
 
 
     /*
@@ -15,7 +16,12 @@ class RegisterController{
     */
 
     // will return a response 
-    public static function registerRequest(){
+    public static function registerRequest()
+    {
+        if($_POST["password"] !== $_POST["confirmPassword"]){
+
+        }
+
         $_POST["password"] = $hashedPass = password_hash($_POST["password"], PASSWORD_BCRYPT);
         //var_dump($_POST);
         $data = $_POST;
@@ -27,6 +33,5 @@ class RegisterController{
         } else {
             echo("error occured");
         }
-        
     }
 }

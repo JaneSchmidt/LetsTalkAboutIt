@@ -1,28 +1,31 @@
 <?php 
 
-
 include __DIR__ . "/../Models/loginModel.php";
-class LoginController{
+
+class LoginController
+{
 
 
     // will return a response
-    public static function loginRequest(){
+    public static function loginRequest()
+    {
         $username = $_GET["username"];
 
-        $hashedPass = password_hash($_GET["password"], PASSWORD_BCRYPT);
+        $query = "SELECT pass FROM users WHERE username = \"$username\";";
+        $connection = Connection::getConnection();    
+        $result = mysqli_query($connection, $query);
+        $nameRow = mysqli_fetch_assoc($result);
 
+        $verified = password_verify($_GET["password"], $nameRow["pass"]);
 
-        $model = new loginModel();
-        $result = $model->verifyUser($username, $hashedPass);
-        if(!$result){
-            echo "Username or password is incorrect";
-        } else {
-            header("Location: /");
-            // echo $result["firstname"] . $result["lastname"];
+        if($verified){
+            $model = new loginModel();
+            $model->getUserInfo($username);
+
+        } else { 
+            header("Location: /login");
         }
+        
     }
 
-
-
 }
-

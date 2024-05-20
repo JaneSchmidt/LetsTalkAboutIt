@@ -1,8 +1,3 @@
-<!-- To Do:
-  required stars
-
--->
-
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
   <head>
