@@ -12,6 +12,7 @@
             <ul>
                 <li><a class="sign-in-button" href="login">SignIn</a></li>
                 <li><a class="sign-up-button" href="register">SignUp</a></li>
+                <li><a class="sign-out-button" href="logout">LogOut</a></li>
             </ul>
         </div>
     </nav>

@@ -1,6 +1,7 @@
 <?php 
 
 include __DIR__ . "/../Models/loginModel.php";
+include __DIR__ . "/../Entity/session.php";
 
 class LoginController
 {
@@ -21,6 +22,8 @@ class LoginController
         if($verified){
             $model = new loginModel();
             $model->getUserInfo($username);
+            $sess = new Session();
+            $sess-> startSession();
 
         } else { 
             header("Location: /login");
