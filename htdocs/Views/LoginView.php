@@ -12,10 +12,13 @@
             <form action = "/getLoggedIn" method = "get">
                 <fieldset>
                     <legend>Sign In</legend>
-                    <label for="username">Username:</label>
-                    <input type="text" placeholder="Enter Username" id="username" name="username" required/>
-                    <label for="password">Password:</label><br>
-                    <input type="password" placeholder="Enter Password" id="password" name="password" required />
+                    
+                      <label for="username">Username:</label>
+                      <input type="text" placeholder="Enter Username" id="username" name="username" maxlength="12" required/>
+
+                      <label for="password">Password:</label><br>
+                      <input type="password" placeholder="Enter Password" id="password" name="password" maxlength="18" required />
+
                     <input class="submit-button" type="submit" value="Login"/>
                 </fieldset>
             </form>

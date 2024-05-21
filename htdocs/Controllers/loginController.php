@@ -5,8 +5,6 @@ include __DIR__ . "/../Entity/session.php";
 
 class LoginController
 {
-
-
     // will return a response
     public static function loginRequest()
     {
@@ -32,3 +30,5 @@ class LoginController
     }
 
 }
+
+require __DIR__ . "/../Views/loginView.php";

@@ -1,37 +1,41 @@
 <?php
 
-include __DIR__ . "/../Models/registerModel.php";
-
 class RegisterController
 {
 
-
-    /*
-
-        validations: 
-            password and confimpassword are the same 
-            the strings for first name and username are not spaces and are not empty 
-            the username does not exist already in the db
-
-    */
-
-    // will return a response 
     public static function registerRequest()
     {
-        if($_POST["password"] !== $_POST["confirmPassword"]){
+        $errors = [];
 
+        if(Validator::string($_POST["first-name"], 12) 
+            || Validator::string($_POST["username"], 12) 
+            || Validator::string($_POST["password"], 18)){
+
+            $errors["form-fill-out"] = "Please fill out all required sections";
+        } 
+
+        if($_POST["password"] !== $_POST["confirm-password"]){
+            $errors["confirm-password"] = "Password and confirm password are not the same";
         }
 
-        $_POST["password"] = $hashedPass = password_hash($_POST["password"], PASSWORD_BCRYPT);
-        //var_dump($_POST);
-        $data = $_POST;
         $model = new RegisterModel;
-        $user = $model->createUser($data);
-        //var_dump($user);
-        if($user){
-            header('Location: /login');
-        } else {
-            echo("error occured");
+        if($alreadyExists = $model->checkUserExists($_POST["username"])){
+            $errors["username"] = "User already exists";
         }
+
+        if(!empty($errors)){
+            $_POST["password"] = $hashedPass = password_hash($_POST["password"], PASSWORD_BCRYPT);
+            $data = $_POST;
+
+            $user = $model->createUser($data);
+
+            if($user){
+                header('Location: /login');
+            } else {
+                echo("error occured");
+            }
+        } 
     }
 }
+
+require __DIR__ . '/../Views/registerView.php';
