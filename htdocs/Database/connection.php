@@ -8,14 +8,42 @@ define('PORT', 8889);
 class Connection 
 {
 
-  public static function getConnection()
-  {
+  function __construct(){}
+
+  public function getQuerySingle(string $query){
+
     $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
-  
-    if (!$connection){
-      echo 'Error: A proper connection to MySQL was NOT made.';
-    } 
-  
-    return $connection;
+
+    $result = mysqli_query($connection, $query);
+
+    $row = mysqli_fetch_assoc($result);
+
+    return $row;
+  }
+
+  public function getQueryArray(string $query){
+
+    $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
+
+    $rows = [];
+
+    $result = mysqli_query($connection, $query);
+
+    while($row = mysqli_fetch_assoc($result)){
+
+      array_push($rows, $row);
+      
+    }
+
+    return $rows;
+  }
+
+  public function postQuery(string $query){
+
+    $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
+
+    $result = mysqli_query($connection, $query);
+
+    return $result;
   }
 }

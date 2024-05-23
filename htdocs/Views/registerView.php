@@ -14,9 +14,7 @@
                   
                     <legend>Sign Up</legend>
 
-                      <?php if(isset($errors["form-fill-out"])): ?>
-                        <p>Error</p>
-                      <?php endif ?>
+                      
 
                       <label for="first-name">First Name:</label>
                       <input type="text" id="first-name" name="first-name" maxlength="12" value="<?php echo $_POST["first-name"] ?? "" ?>" required/>

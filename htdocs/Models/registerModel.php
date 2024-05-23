@@ -1,18 +1,19 @@
 <?php
 
+include __DIR__ . "/../Entity/user.php";
+
 class RegisterModel
 {
 
-    public function checkUserExists(string $username){
+    public function checkUserExists(string $username)
+    {
         $query = "SELECT firstname FROM users WHERE username = \"$username\";";
 
-        $connection = Connection::getConnection();
-        $result = mysqli_query($connection, $query);
-        $rows = mysqli_fetch_assoc($result);
-        if($rows){
-            return 1;
-        }
-        return 0;
+        $connection = new Connection();
+        
+        $name = $connection->getQuerySingle($query);
+
+        return $name;
     }
     public function createUser(array $data) 
     {
@@ -28,23 +29,22 @@ class RegisterModel
     public function storeUser(User $newUser)
     {
         $firstName = $newUser->getFirstName();
+
         $lastName = $newUser->getLastName();
+
         $username = $newUser->getUsername();
+
         $pass = $newUser->getPassword();
+
 
         $query = "INSERT INTO users (firstname, lastname, username, pass) 
                   VALUES ( \"$firstName\", \"$lastName\", \"$username\", \"$pass\");";
 
-        $connection = Connection::getConnection();
-        $result = mysqli_query($connection, $query);
-        var_dump($result);
+        $connection = new Connection();
 
-        // why am i not returning result
-        if(!$result){
-            return(0);
-        } else {
-            return(1);
-        }
+        $result = $connection->postQuery($query);
+
+        return $result;
 
     }
 }

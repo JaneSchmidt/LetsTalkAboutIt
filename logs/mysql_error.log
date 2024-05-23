@@ -1,174 +1,93 @@
-2024-05-20T21:50:50.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
-2024-05-20T21:50:50.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
-2024-05-20T21:50:50.480598Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
-2024-05-20T21:50:50.481136Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
-2024-05-20T21:50:50.481149Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.39) starting as process 50181 ...
-2024-05-20T21:50:50.484909Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
-2024-05-20T21:50:50.485760Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
-2024-05-20T21:50:50.485768Z 0 [Note] InnoDB: Uses event mutexes
-2024-05-20T21:50:50.485773Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
-2024-05-20T21:50:50.485778Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2024-05-20T21:50:50.486168Z 0 [Note] InnoDB: Number of pools: 1
-2024-05-20T21:50:50.486213Z 0 [Note] InnoDB: Not using CPU crc32 instructions
-2024-05-20T21:50:50.486660Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
-2024-05-20T21:50:50.489686Z 0 [Note] InnoDB: Completed initialization of buffer pool
-2024-05-20T21:50:50.504247Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
-2024-05-20T21:50:50.511653Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2024-05-20T21:50:50.511731Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2024-05-20T21:50:50.515656Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
-2024-05-20T21:50:50.515944Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
-2024-05-20T21:50:50.515951Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
-2024-05-20T21:50:50.516045Z 0 [Note] InnoDB: Waiting for purge to start
-2024-05-20T21:50:50.567286Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 2866645
-2024-05-20T21:50:50.567360Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
-2024-05-20T21:50:50.567472Z 0 [Note] Plugin 'FEDERATED' is disabled.
-2024-05-20T21:50:50.570124Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-20T21:50:50.570146Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-20T21:50:50.578559Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240520 17:50:50
-2024-05-20T21:50:50.583059Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
-2024-05-20T21:50:50.583068Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
-2024-05-20T21:50:50.583075Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
-2024-05-20T21:50:50.583081Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
-2024-05-20T21:50:50.584218Z 0 [Warning] CA certificate ca.pem is self signed.
-2024-05-20T21:50:50.584269Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
-2024-05-20T21:50:50.584578Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
-2024-05-20T21:50:50.584781Z 0 [Note] IPv6 is available.
-2024-05-20T21:50:50.584791Z 0 [Note]   - '::' resolves to '::';
-2024-05-20T21:50:50.584814Z 0 [Note] Server socket created on IP: '::'.
-2024-05-20T21:50:50.585056Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
-2024-05-20T21:50:50.598661Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
-2024-05-20T21:50:50.599011Z 0 [Note] Event Scheduler: Loaded 0 events
-2024-05-20T21:50:50.599073Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+2024-05-23T14:29:13.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
+2024-05-23T14:29:13.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
+2024-05-23T14:29:14.111363Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-05-23T14:29:14.111945Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-05-23T14:29:14.112482Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.39) starting as process 79288 ...
+2024-05-23T14:29:14.118671Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
+2024-05-23T14:29:14.122371Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-05-23T14:29:14.122380Z 0 [Note] InnoDB: Uses event mutexes
+2024-05-23T14:29:14.122384Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-05-23T14:29:14.122388Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-05-23T14:29:14.123490Z 0 [Note] InnoDB: Number of pools: 1
+2024-05-23T14:29:14.124920Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-23T14:29:14.125537Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-05-23T14:29:14.128954Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-23T14:29:14.145813Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-23T14:29:14.166369Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-23T14:29:14.166447Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-23T14:29:14.170641Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-05-23T14:29:14.170955Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-05-23T14:29:14.170961Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-05-23T14:29:14.171093Z 0 [Note] InnoDB: Waiting for purge to start
+2024-05-23T14:29:14.226157Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 2870358
+2024-05-23T14:29:14.226404Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
+2024-05-23T14:29:14.226983Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-23T14:29:14.234101Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T14:29:14.234122Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T14:29:14.235111Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240523 10:29:14
+2024-05-23T14:29:14.249544Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-05-23T14:29:14.249558Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-05-23T14:29:14.249564Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2024-05-23T14:29:14.249567Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2024-05-23T14:29:14.252761Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-05-23T14:29:14.254639Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-05-23T14:29:14.255206Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
+2024-05-23T14:29:14.255377Z 0 [Note] IPv6 is available.
+2024-05-23T14:29:14.255386Z 0 [Note]   - '::' resolves to '::';
+2024-05-23T14:29:14.255404Z 0 [Note] Server socket created on IP: '::'.
+2024-05-23T14:29:14.255995Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-05-23T14:29:14.272581Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
+2024-05-23T14:29:14.273318Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-05-23T14:29:14.273375Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
 Version: '5.7.39'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
-2024-05-20T21:50:51.113383Z 0 [Note] Giving 0 client threads a chance to die gracefully
-2024-05-20T21:50:51.113413Z 0 [Note] Shutting down slave threads
-2024-05-20T21:50:51.113428Z 0 [Note] Forcefully disconnecting 0 remaining clients
-2024-05-20T21:50:51.113436Z 0 [Note] Event Scheduler: Purging the queue. 0 events
-2024-05-20T21:50:51.113471Z 0 [Note] Binlog end
-2024-05-20T21:50:51.113900Z 0 [Note] Shutting down plugin 'ngram'
-2024-05-20T21:50:51.113909Z 0 [Note] Shutting down plugin 'partition'
-2024-05-20T21:50:51.113916Z 0 [Note] Shutting down plugin 'BLACKHOLE'
-2024-05-20T21:50:51.113923Z 0 [Note] Shutting down plugin 'ARCHIVE'
-2024-05-20T21:50:51.113928Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
-2024-05-20T21:50:51.113948Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
-2024-05-20T21:50:51.113955Z 0 [Note] Shutting down plugin 'MyISAM'
-2024-05-20T21:50:51.113963Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
-2024-05-20T21:50:51.113969Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
-2024-05-20T21:50:51.113974Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
-2024-05-20T21:50:51.113978Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
-2024-05-20T21:50:51.113983Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
-2024-05-20T21:50:51.113988Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
-2024-05-20T21:50:51.113993Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
-2024-05-20T21:50:51.113998Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
-2024-05-20T21:50:51.114002Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
-2024-05-20T21:50:51.114007Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
-2024-05-20T21:50:51.114012Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
-2024-05-20T21:50:51.114017Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
-2024-05-20T21:50:51.114021Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
-2024-05-20T21:50:51.114026Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
-2024-05-20T21:50:51.114031Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
-2024-05-20T21:50:51.114036Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
-2024-05-20T21:50:51.114041Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
-2024-05-20T21:50:51.114045Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
-2024-05-20T21:50:51.114050Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
-2024-05-20T21:50:51.114055Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
-2024-05-20T21:50:51.114060Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
-2024-05-20T21:50:51.114064Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
-2024-05-20T21:50:51.114069Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
-2024-05-20T21:50:51.114074Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
-2024-05-20T21:50:51.114079Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
-2024-05-20T21:50:51.114084Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
-2024-05-20T21:50:51.114089Z 0 [Note] Shutting down plugin 'INNODB_CMP'
-2024-05-20T21:50:51.114094Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
-2024-05-20T21:50:51.114099Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
-2024-05-20T21:50:51.114105Z 0 [Note] Shutting down plugin 'INNODB_TRX'
-2024-05-20T21:50:51.114109Z 0 [Note] Shutting down plugin 'InnoDB'
-2024-05-20T21:50:51.114140Z 0 [Note] InnoDB: FTS optimize thread exiting.
-2024-05-20T21:50:51.114182Z 0 [Note] InnoDB: Starting shutdown...
-2024-05-20T21:50:51.219612Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/MAMP/db/mysql57/ib_buffer_pool
-2024-05-20T21:50:51.221221Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 240520 17:50:51
-2024-05-20T21:50:51.954321Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2866664
-2024-05-20T21:50:51.954784Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2024-05-20T21:50:51.954827Z 0 [Note] Shutting down plugin 'MEMORY'
-2024-05-20T21:50:51.954838Z 0 [Note] Shutting down plugin 'CSV'
-2024-05-20T21:50:51.954848Z 0 [Note] Shutting down plugin 'sha256_password'
-2024-05-20T21:50:51.954856Z 0 [Note] Shutting down plugin 'mysql_native_password'
-2024-05-20T21:50:51.955070Z 0 [Note] Shutting down plugin 'binlog'
-2024-05-20T21:50:51.955472Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: Shutdown complete
-
-2024-05-20T21:50:51.6NZ mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
-2024-05-21T14:15:48.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
-2024-05-21T14:15:48.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
-2024-05-21T14:15:48.621729Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
-2024-05-21T14:15:48.622146Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
-2024-05-21T14:15:48.622736Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.39) starting as process 51515 ...
-2024-05-21T14:15:48.628839Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
-2024-05-21T14:15:48.633181Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
-2024-05-21T14:15:48.633199Z 0 [Note] InnoDB: Uses event mutexes
-2024-05-21T14:15:48.633207Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
-2024-05-21T14:15:48.633213Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2024-05-21T14:15:48.634261Z 0 [Note] InnoDB: Number of pools: 1
-2024-05-21T14:15:48.635382Z 0 [Note] InnoDB: Not using CPU crc32 instructions
-2024-05-21T14:15:48.636046Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
-2024-05-21T14:15:48.639570Z 0 [Note] InnoDB: Completed initialization of buffer pool
-2024-05-21T14:15:48.655266Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
-2024-05-21T14:15:48.672184Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2024-05-21T14:15:48.672261Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2024-05-21T14:15:48.676851Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
-2024-05-21T14:15:48.677126Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
-2024-05-21T14:15:48.677132Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
-2024-05-21T14:15:48.678395Z 0 [Note] InnoDB: Waiting for purge to start
-2024-05-21T14:15:48.729043Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 2866664
-2024-05-21T14:15:48.729132Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
-2024-05-21T14:15:48.730080Z 0 [Note] Plugin 'FEDERATED' is disabled.
-2024-05-21T14:15:48.736030Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:15:48.736052Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:15:48.738940Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240521 10:15:48
-2024-05-21T14:15:48.750720Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
-2024-05-21T14:15:48.750734Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
-2024-05-21T14:15:48.750740Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
-2024-05-21T14:15:48.750743Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
-2024-05-21T14:15:48.753020Z 0 [Warning] CA certificate ca.pem is self signed.
-2024-05-21T14:15:48.753302Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
-2024-05-21T14:15:48.753690Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
-2024-05-21T14:15:48.753852Z 0 [Note] IPv6 is available.
-2024-05-21T14:15:48.753859Z 0 [Note]   - '::' resolves to '::';
-2024-05-21T14:15:48.753877Z 0 [Note] Server socket created on IP: '::'.
-2024-05-21T14:15:48.754065Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
-2024-05-21T14:15:48.770023Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
-2024-05-21T14:15:48.770703Z 0 [Note] Event Scheduler: Loaded 0 events
-2024-05-21T14:15:48.770760Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
-Version: '5.7.39'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
-2024-05-21T14:15:54.569937Z 5 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:15:54.569977Z 5 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:15:54.573807Z 5 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:15:54.573872Z 5 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:38:42.942337Z 7 [Note] Access denied for user 'root'@'localhost' (using password: NO)
-2024-05-21T14:38:45.572877Z 9 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T14:38:45.572934Z 9 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.273687Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274146Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274399Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274406Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274876Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274885Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274929Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274935Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274953Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274958Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274973Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274978Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274991Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.274995Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.275018Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:10:25.275022Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
-2024-05-21T15:37:11.194970Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48287ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T15:54:41.071328Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1003523ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T16:12:25.794294Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 906447ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T16:28:36.207726Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 924029ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T17:38:25.017664Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 585945ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T17:57:35.583723Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 958973ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T18:14:04.033082Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 942079ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T18:30:15.431701Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 925060ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T18:39:24.833208Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 504077ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
-2024-05-21T18:44:30.760862Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 259557ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T14:34:54.753612Z 23 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T14:34:54.753840Z 23 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T14:34:54.757742Z 23 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T14:34:54.757785Z 23 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T15:04:36.668185Z 50 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T15:04:36.668521Z 50 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T15:33:25.783804Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 816553ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T16:47:12.196347Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 250643ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T17:13:00.852177Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 98698ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T17:29:53.589223Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 997626ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T17:45:52.146512Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 954518ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T18:53:46.264085Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 926743ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T19:08:56.543306Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 906246ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T20:04:28.784735Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 928918ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T20:15:20.126138Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 646299ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T20:24:42.649322Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 552465ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T20:30:34.580897Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 337843ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T21:25:12.244754Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55571ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-05-23T21:28:01.079864Z 188 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2024-05-23T21:28:43.915777Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.915945Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916205Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916215Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916672Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916689Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916744Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916749Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916764Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916768Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916781Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916784Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916797Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916800Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916811Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:28:43.916814Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.068523Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069557Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069586Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069592Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069757Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069763Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069796Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069801Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069816Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069821Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069834Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069839Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069852Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069856Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069868Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2024-05-23T21:39:22.069880Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade

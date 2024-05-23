@@ -6,9 +6,13 @@ class loginModel
     {
 
         $query = "SELECT firstname, lastname FROM users WHERE username = \"$username\";";
-        $connection = Connection::getConnection();
-        $result = mysqli_query($connection, $query);
-        $nameRow = mysqli_fetch_assoc($result);
+
+        $connection = new Connection();
+        
+        $name = $connection->getQuerySingle($query);
+
+        var_dump($name);
+
         header('Location: /');
     }
 

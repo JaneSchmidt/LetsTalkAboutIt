@@ -2,6 +2,7 @@
 
 include __DIR__ . "/../Models/loginModel.php";
 include __DIR__ . "/../Entity/session.php";
+include __DIR__ . "/../Database/connection.php";
 
 class LoginController
 {
@@ -11,20 +12,24 @@ class LoginController
         $username = $_GET["username"];
 
         $query = "SELECT pass FROM users WHERE username = \"$username\";";
-        $connection = Connection::getConnection();    
-        $result = mysqli_query($connection, $query);
-        $nameRow = mysqli_fetch_assoc($result);
 
-        $verified = password_verify($_GET["password"], $nameRow["pass"]);
+        $dbConnection = new Connection();
+
+        $result = $dbConnection->getQuerySingle($query);
+
+        $verified = password_verify($_GET["password"], $result["pass"]);
 
         if($verified){
+
             $model = new loginModel();
+
             $model->getUserInfo($username);
-            $sess = new Session();
-            $sess-> startSession();
+
 
         } else { 
+
             header("Location: /login");
+
         }
         
     }

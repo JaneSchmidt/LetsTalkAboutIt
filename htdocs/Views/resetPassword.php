@@ -12,13 +12,17 @@
             <form action = "/resetPassword" method = "update">
                 <fieldset>
                     <legend>Reset password</legend>
-                    <label for="username">Username:</label>
-                    <input type="text" placeholder="Enter Username" id="username" name="username" required/>
-                    <label for="password">New password:</label><br>
-                    <input type="password" placeholder="Enter Password" id="password" name="password" required />
-                    <label for="password">Confirm password:</label><br>
-                    <input type="password" placeholder="Enter Password" id="password" name="password" required />
-                    <input class="submit-button" type="submit" value="Reset"/>
+                      
+                      <label for="username">Username:</label>
+                      <input type="text" placeholder="Enter Username" id="username" name="username" required/>
+                      
+                      <label for="password">New password:</label><br>
+                      <input type="password" placeholder="Enter Password" id="password" name="password" required />
+                      
+                      <label for="password">Confirm password:</label><br>
+                      <input type="password" placeholder="Enter Password" id="password" name="password" required />
+                    
+                      <input class="submit-button" type="submit" value="Reset"/>
                 </fieldset>
             </form>
         </div>

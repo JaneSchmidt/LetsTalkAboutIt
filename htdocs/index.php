@@ -20,14 +20,16 @@ switch($requestArr["path"]){
     break;
   case "/addArticle":
     require("Views/addArticle.php");
-  //   break;
+    break;
   // case "/logout":
   //   LogoutController::logoutRequest();
   //   break;
   case "/getLoggedIn":
+    include(__DIR__ . "/Controllers/loginController.php");
     LoginController::loginRequest();
     break;
   case "/getRegistered":
+    include(__DIR__ . "/Controllers/registerController.php");
     RegisterController::registerRequest();
     break;
   default:

@@ -38,10 +38,10 @@
             <h5><?php echo $article->getFirstName() . ", " . $article->getLastName() ?>, <?php echo $article->getCreationDate() ?> </h5>
           </footer>
 
-        </div><!-- end blog-post-->
+        </div>
       <?php } ?>
    
-    </div><!-- end blog-->
+    </div>
 
 
   </body>
