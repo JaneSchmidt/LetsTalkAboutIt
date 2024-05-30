@@ -1,8 +1,6 @@
 <?php
 
-include __DIR__ . "/../Authorizations/validator.php";
-include __DIR__ . "/../Models/registerModel.php";
-include __DIR__ . "/../Database/connection.php";
+include base_path("Models/registerModel.php");
 
 class RegisterController
 {
@@ -11,17 +9,25 @@ class RegisterController
     {
         $errors = [];
 
-        if(Validator::string($_POST["first-name"], 12) 
-            || Validator::string($_POST["username"], 12) 
-            || Validator::string($_POST["password"], 18)){
+        if($userErr = Validator::string($_POST["username"], 18, 4)){
 
-            $errors["form-fill-out"] = "Please fill out all required sections";
+            $errors["username"] = $userErr;
+        }
+
+        if($userErr = Validator::string($_POST["first-name"], 18, 4)){
+
+            $errors["name"] = $userErr;
+        }
+
+        if($userErr = Validator::string($_POST["password"], 12)){
+
+            $errors["password"] = $userErr;
             
         } 
 
         if($_POST["password"] !== $_POST["confirm-password"]){
 
-            $errors["confirm-password"] = "Password and confirm password are not the same";
+            $errors["confirmPassword"] = "Password and confirm password are not the same";
 
         }
 
@@ -33,7 +39,11 @@ class RegisterController
             
         }
 
-        if(empty($errors)){
+        if(!empty($errors)){
+            
+            view("registerView.php", $errors);
+
+        } else {
 
             $_POST["password"] = password_hash($_POST["password"], PASSWORD_BCRYPT);
 
@@ -42,16 +52,17 @@ class RegisterController
             $user = $model->createUser($data);
 
             if($user){
-
-                header('Location: /login');
+                $message["login"] = "Sign up successful! Please log in.";
+                view("loginView.php", $message);
+                exit();
 
             } else {
 
-                echo("error occured");
+                echo "ERROR";
+                $errors["user"] = "Error in saving data, please try again.";
+                view("registerView.php", $errors);
 
             }
         } 
     }
 }
-
-require __DIR__ . '/../Views/registerView.php';

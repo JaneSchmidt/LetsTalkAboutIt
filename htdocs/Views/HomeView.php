@@ -6,8 +6,8 @@
 </head>
   <body class="container">
     <?php 
-      include __DIR__ . "/../Attributes/navBar.php";
-      include __DIR__ . "/../Models/homeModel.php";
+      include base_path("Attributes/navBar.php");
+      include base_path("Models/homeModel.php");
     ?>
 
     <br/>

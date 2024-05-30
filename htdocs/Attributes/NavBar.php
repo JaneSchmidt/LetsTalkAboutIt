@@ -12,7 +12,10 @@
             <ul>
                 <li><a class="sign-in-button" href="login">SignIn</a></li>
                 <li><a class="sign-up-button" href="register">SignUp</a></li>
-                <li><a class="sign-out-button" href="logout">LogOut</a></li>
+                <?php if($_SESSION["user"] ?? false) : ?>
+                  <li><a class="sign-out-button" href="logout">LogOut</a></li>
+                  <li><p>profile</p></li>
+                <?php endif ?>
             </ul>
         </div>
     </nav>

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../Styling/addArticleStyle.css">
   </head>
   <?php 
-      include __DIR__ . "/../Attributes/navBar.php";
+      include base_path("Attributes/navBar.php");
     ?>
   <body>
         <div class= "form">

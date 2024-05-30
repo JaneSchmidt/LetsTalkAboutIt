@@ -1,15 +1,13 @@
 <?php 
 
-include __DIR__ . "/../Models/loginModel.php";
-include __DIR__ . "/../Entity/session.php";
-include __DIR__ . "/../Database/connection.php";
+include base_path("Models/loginModel.php");
 
 class LoginController
 {
     // will return a response
     public static function loginRequest()
     {
-        $username = $_GET["username"];
+        $username = htmlspecialchars($_GET["username"]);
 
         $query = "SELECT pass FROM users WHERE username = \"$username\";";
 
@@ -35,5 +33,3 @@ class LoginController
     }
 
 }
-
-require __DIR__ . "/../Views/loginView.php";

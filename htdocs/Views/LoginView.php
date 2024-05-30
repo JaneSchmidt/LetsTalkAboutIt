@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../Styling/login.css">
   </head>
   <?php 
-      include __DIR__ . "/../Attributes/navBar.php";
+      include base_path("Attributes/navBar.php");
     ?>
   <body>
         <div class= "form">
@@ -13,6 +13,9 @@
                 <fieldset>
                     <legend>Sign In</legend>
                     
+                      <?php if(isset($login)): ?>
+                        <p><?php echo $login; ?></p>
+                      <?php endif ?>
                       <label for="username">Username:</label>
                       <input type="text" placeholder="Enter Username" id="username" name="username" maxlength="12" required/>
 

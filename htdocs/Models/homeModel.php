@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . "/../Entity/article.php";
+include base_path("Entity/article.php");
 
 class HomeModel
 {

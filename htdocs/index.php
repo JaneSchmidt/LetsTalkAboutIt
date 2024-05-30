@@ -2,39 +2,20 @@
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
 
+const BASE_PATH = __DIR__ . '/';
+
+require __DIR__ . "/Core/functions.php";
+require base_path("Core/router.php");
+
 $request = $_SERVER["REQUEST_URI"];
 $requestArr = parse_url($request);
+$method = isset($_POST['_method']) ?? $_SERVER['REQUEST_METHOD'];
 
-switch($requestArr["path"]){
-  case "/":
-    require("Controllers/homeController.php");
-    break; 
-  case "/login":
-    require("Controllers/loginController.php");
-    break; 
-  case "/register":
-    require("Controllers/registerController.php");
-    break;
-  case "/resetPassword":
-    require("Views/resetPassword.php");
-    break;
-  case "/addArticle":
-    require("Views/addArticle.php");
-    break;
-  // case "/logout":
-  //   LogoutController::logoutRequest();
-  //   break;
-  case "/getLoggedIn":
-    include(__DIR__ . "/Controllers/loginController.php");
-    LoginController::loginRequest();
-    break;
-  case "/getRegistered":
-    include(__DIR__ . "/Controllers/registerController.php");
-    RegisterController::registerRequest();
-    break;
-  default:
-    require("Controllers/homeController.php");
-    break; 
 
-}
+spl_autoload_register(function($class){
+  include base_path("Core/" . $class . ".php");
+});  
+
+Router::route($requestArr);
+
 

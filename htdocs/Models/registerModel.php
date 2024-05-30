@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . "/../Entity/user.php";
+include base_path("Entity/user.php");
 
 class RegisterModel
 {
@@ -15,12 +15,13 @@ class RegisterModel
 
         return $name;
     }
+    
     public function createUser(array $data) 
     {
 
-        $newUser = new User($data["first-name"], 
-                            $data["last-name"], 
-                            $data["username"], 
+        $newUser = new User(htmlspecialchars($data["first-name"]), 
+                            htmlspecialchars($data["last-name"]), 
+                            htmlspecialchars($data["username"]), 
                             $data["password"]);
 
         return $this->storeUser($newUser);
