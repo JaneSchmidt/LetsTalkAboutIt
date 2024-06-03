@@ -1,25 +1,29 @@
 *{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    color:black;
 }
+
+.navbar{
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .navdiv{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    overflow: hidden;
-    position:fixed;
 }
-li{
+
+img{
+    height: 65px;
+}
+
+li {
     list-style: none;
     display: inline-block;
-}
-li a {
-    color: black; 
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 500;
     margin-right: 25px;
-    border-radius: 10px;
-}
-img{
-    height: 62px;
 }
