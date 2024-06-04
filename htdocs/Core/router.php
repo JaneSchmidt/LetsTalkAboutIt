@@ -2,6 +2,48 @@
 
 class Router {
 
+    public static function route($request){
+        switch($request["path"]){
+            case "/":
+              view("homeView.php");
+              break; 
+            case "/login":
+              view("loginView.php");
+              break; 
+            case "/register":
+              view("registerView.php");
+              break;
+            case "/resetPassword":
+              view("resetPassword.php");
+              break;
+            case "/addArticle":
+              view("addArticle.php");
+              break;
+            case "/logout":
+              include base_path("Controllers/logoutController.php");
+              LogoutController::logoutRequest();
+              break;
+            case "/getLoggedIn":
+              include base_path("Controllers/loginController.php");
+              LoginController::loginRequest();
+              break;
+            case "/getRegistered":
+              include base_path("Controllers/registerController.php");
+              RegisterController::registerRequest();
+              break;
+            case "/newArticle":
+              include base_path("Controllers/addArticleController.php");
+              AddArticleController::addArticle();
+              break;
+            default:
+              view("homeView.php");
+              break; 
+          
+          }
+    }
+}
+
+/*
     protected $routes = [];
 
     public function add($method, $uri, $controller){
@@ -43,40 +85,4 @@ class Router {
         }
       }
     } 
-
-
-    public static function route($request){
-        switch($request["path"]){
-            case "/":
-              view("homeView.php");
-              break; 
-            case "/login":
-              view("loginView.php");
-              break; 
-            case "/register":
-              view("registerView.php");
-              break;
-            case "/resetPassword":
-              require("/../Views/resetPassword.php");
-              break;
-            case "/addArticle":
-              require("/../Views/addArticle.php");
-              break;
-            // case "/logout":
-            //   LogoutController::logoutRequest();
-            //   break;
-            case "/getLoggedIn":
-              include base_path("Controllers/loginController.php");
-              LoginController::loginRequest();
-              break;
-            case "/getRegistered":
-              include base_path("Controllers/registerController.php");
-              RegisterController::registerRequest();
-              break;
-            default:
-            require base_path("Controllers/homeController.php");
-              break; 
-          
-          }
-    }
-}
+*/

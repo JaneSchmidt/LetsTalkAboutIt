@@ -10,9 +10,9 @@ class LoginController
 
         $username = htmlspecialchars($_GET["username"]);
 
-        if(!Validator::string($username, 20) || !Validator::string($_GET["password"], 20)){
+        if(Validator::string($username, 20) || Validator::string($_GET["password"], 20)){
 
-            echo "here";
+            echo $_GET["password"];
             $errors["login"] = "Username or password is incorrect.";
             view("loginView.php", $errors);
         

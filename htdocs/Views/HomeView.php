@@ -3,49 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../Styling/homeStyle.css">
-</head>
-  <body class="container">
-    <?php 
-      include base_path("Attributes/navBar.php");
-      include base_path("Models/homeModel.php");
-    ?>
-
-    <br/>
-
-    <h1 class="header">
-      Let's Talk About It
-    </h1>
-    <?php if(isset($_SESSION["first-name"])):?>
-      <p><?php echo $ـSESSION["first-name"]; ?></p>
-    <?php endif; ?>
-
-    <div class="blog">
+  </head>
+    <body class="container">
       <?php 
-            
-        $model = new HomeModel;
-        $result = $model->getArticles();
+        include base_path("Attributes/navBar.php");
+        include base_path("Models/homeModel.php");
+      ?>
 
-        foreach($result as $article) {
-      ?>  
-        <div class="blog-post">
+      <br/>
 
-          <header class="subject">
-            <h1> <?php echo $article->getSubject()  ?> </h1>
-          </header>
+      <h1 class="header">
+        Let's Talk About It
+      </h1>
 
-          <div class="content">
-            <p> <?php echo $article->getContent() ?> </p>
+      <div class="blog">
+        <?php 
+              
+          $model = new HomeModel;
+          $result = $model->getArticles();
+
+          foreach($result as $article) {
+        ?>  
+          <div class="blog-post">
+
+            <header class="subject">
+              <h1> <?php echo $article->getSubject()  ?> </h1>
+            </header>
+
+            <div class="content">
+              <p> <?php echo $article->getContent() ?> </p>
+            </div>
+
+            <footer class="name-and-date">
+              <h5><?php echo $article->getFirstName() . ", " . $article->getLastName() ?>, <?php echo $article->getCreationDate() ?> </h5>
+            </footer>
+
           </div>
-
-          <footer class="name-and-date">
-            <h5><?php echo $article->getFirstName() . ", " . $article->getLastName() ?>, <?php echo $article->getCreationDate() ?> </h5>
-          </footer>
-
-        </div>
-      <?php } ?>
-   
-    </div>
+        <?php } ?>
+    
+      </div>
 
 
-  </body>
+    </body>
 </html>

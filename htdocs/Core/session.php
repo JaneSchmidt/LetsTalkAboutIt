@@ -10,7 +10,7 @@ class Session{
         $_SESSION["username"] = $username;
     }
 
-    public function stopSession(){
+    public static function stopSession(){
         $_SESSION = [];
         session_destroy();
     }

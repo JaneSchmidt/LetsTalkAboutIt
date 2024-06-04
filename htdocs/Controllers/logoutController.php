@@ -5,11 +5,9 @@ class LogoutController
 
     public static function logoutRequest()
     {
-
-        $session = new Session();
-        $session->stopSession();
+        
+        Session::stopSession();
         header("Location: /");
-
         
     }
 

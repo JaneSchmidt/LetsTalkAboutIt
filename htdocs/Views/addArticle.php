@@ -9,7 +9,7 @@
     ?>
   <body>
         <div class= "form">
-            <form action = "/resetcontent" method = "update">
+            <form action = "/newArticle" method = "post">
                 <fieldset>
                     <legend>New Article</legend>
 
@@ -17,7 +17,7 @@
                       <input type="text" placeholder="Enter subject" class="subject" name="subject" value="<?php echo $_POST["subject"] ?? "" ?>" required/>
 
                       <label for="content">Content:</label><br>
-                      <input type="textarea" placeholder="Enter content" class="content" name="content" value="<?php echo $_POST["content"] ?? "" ?>" required />
+                      <textarea placeholder="Enter content" class="content" name="content" value="<?php echo $_POST["content"] ?? "" ?>" required></textarea>
 
                     <input class="submit-button" type="submit" value="Post"/>
 
