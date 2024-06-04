@@ -17,10 +17,13 @@
                         <p><?php echo $login; ?></p>
                       <?php endif ?>
                       <label for="username">Username:</label>
-                      <input type="text" placeholder="Enter Username" id="username" name="username" maxlength="12" required/>
+                      <input type="text" placeholder="Enter Username" id="username" name="username" maxlength="12"/>
 
                       <label for="password">Password:</label><br>
-                      <input type="password" placeholder="Enter Password" id="password" name="password" maxlength="18" required />
+                      <input type="password" placeholder="Enter Password" id="password" name="password" maxlength="18"/>
+                        <?php if(isset($error)): ?>
+                          <p><?php echo $error;?></p>
+                        <?php endif; ?>
 
                     <input class="submit-button" type="submit" value="Login"/>
                 </fieldset>

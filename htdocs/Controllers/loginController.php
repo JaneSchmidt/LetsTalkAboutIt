@@ -7,27 +7,37 @@ class LoginController
     // will return a response
     public static function loginRequest()
     {
+
         $username = htmlspecialchars($_GET["username"]);
 
-        $query = "SELECT pass FROM users WHERE username = \"$username\";";
+        if(!Validator::string($username, 20) || !Validator::string($_GET["password"], 20)){
 
-        $dbConnection = new Connection();
+            echo "here";
+            $errors["login"] = "Username or password is incorrect.";
+            view("loginView.php", $errors);
+        
+        } else {
 
-        $result = $dbConnection->getQuerySingle($query);
+            $query = "SELECT pass FROM users WHERE username = \"$username\";";
 
-        $verified = password_verify($_GET["password"], $result["pass"]);
+            $dbConnection = new Connection();
 
-        if($verified){
+            $result = $dbConnection->getQuerySingle($query);
 
-            $model = new loginModel();
+            $verified = password_verify($_GET["password"], $result["pass"]);
 
-            $model->getUserInfo($username);
+            if($verified){
 
+                $model = new loginModel();
 
-        } else { 
+                $model->getUserInfo($username);
 
-            header("Location: /login");
+            } else { 
 
+                $errors["login"] = "Username or password is incorrect.";
+                view("loginView.php", $errors);
+
+            }
         }
         
     }

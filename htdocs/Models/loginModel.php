@@ -11,9 +11,9 @@ class loginModel
         
         $name = $connection->getQuerySingle($query);
 
-        var_dump($name);
+        Session::setSessionData($name["firstname"], $name["lastname"], $username);
 
-        header('Location: /');
+        view("homeView.php");
     }
 
 

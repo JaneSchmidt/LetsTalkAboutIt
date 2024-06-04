@@ -3,20 +3,15 @@
 
 class Session{ 
 
+    public static function setSessionData($firstname, $lastname, $username){
 
-    public function startSession(){
-        if(session_status() === PHP_SESSION_ACTIVE){
-            echo "Session has been started!";
-        }
-
-        if(headers_sent($filename, $line)){
-            echo("Headers have been sent!");
-        }
-        session_start();
-
+        $_SESSION["first-name"] = $firstname;
+        $_SESSION["last-name"] = $lastname;
+        $_SESSION["username"] = $username;
     }
 
     public function stopSession(){
+        $_SESSION = [];
         session_destroy();
     }
 }

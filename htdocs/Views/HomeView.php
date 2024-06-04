@@ -15,6 +15,9 @@
     <h1 class="header">
       Let's Talk About It
     </h1>
+    <?php if(isset($_SESSION["first-name"])):?>
+      <p><?php echo $ـSESSION["first-name"]; ?></p>
+    <?php endif; ?>
 
     <div class="blog">
       <?php 
