@@ -1,16 +1,60 @@
 <?php
 
+include base_path("Models/addArticleModel.php");
+
 class AddArticleController
 {
 
+    public function validations(){
 
-// in add article use htmlspecialchars() to change all code to string
-    public static function addArticle()
+        $errors = [];
+
+        if($userErr = Validator::string($_POST["subject"], null, 4)){
+
+            $errors["subject"] = $userErr;
+        }
+
+        if($userErr = Validator::string($_POST["content"], null, 4)){
+
+            $errors["content"] = $userErr;
+        }
+
+        if(!empty($errors)){
+            
+            view("addArticleView.php", $errors);
+
+        } else {
+            
+            $this->addArticle();
+        
+        }
+    }
+
+
+
+    public function addArticle()
     {
-        $subject = htmlspecialchars($_POST["subject"]);
-        $content = htmlspecialchars($_POST["content"]);
+
         date_default_timezone_set("America/New_York");
         $date = date("M d, Y");
-        echo $_SESSION["username"];
+
+        $model = new AddArticleModel();
+
+        $id = $model->getUserId($_SESSION["username"]);
+
+        $article = $model->createArticle($date, $id, $_POST["subject"], $_POST["content"]);
+
+        if($article){
+            view("homeView.php");
+            exit();
+
+        } else {
+
+            echo "ERROR";
+            $errors["article"] = "Error in saving data, please try again.";
+            view("addArticleView.php", $errors);
+
+        }
+
     }
 }

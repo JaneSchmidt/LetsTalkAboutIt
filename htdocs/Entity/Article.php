@@ -3,13 +3,56 @@
 class Article
 {
     
+    private $creationDate;
+    private $modificationDate;
+    private $userID;
     private $subject;
     private $content;
-    private $FirstName;
-    private $creationDate;
-    private $LastName;
+    private $firstName;
+    private $lastName;
 
 
+    // Getters
+
+    public function getSubject():string
+    {
+        return $this->subject;
+    }
+
+    public function getContent():string
+    {
+        return $this->content;
+    }
+
+    public function getUserID():string
+    {
+        return $this->userID;
+    }
+
+    public function getModificationDate(): string
+    {
+        return $this->modificationDate;
+    }
+
+
+    public function getCreationDate():string
+    {
+        return $this->creationDate;
+    }
+
+    public function getFirstName():string
+    {
+        return $this->firstName;
+    }
+
+
+    public function getLastName():string
+    {
+        return $this->lastName;
+    }
+
+
+    // Setters
 
     public function setSubject(string $subject)
     {
@@ -21,45 +64,31 @@ class Article
         $this->content = $content;
     }
 
-    public function setFirstName(string $FirstName)
+    public function setUserID(string $userID)
     {
-        $this->FirstName = $FirstName;
+        $this->userID = $userID;
     }
 
-    public function setLastName(string $LastName)
+    public function setModificationDate(string $modificationDate)
     {
-        $this->LastName = $LastName;
+        $this->modificationDate = $modificationDate;
     }
+
 
     public function setCreationDate(string $creationDate)
     {
         $this->creationDate = $creationDate;
     }
 
-    public function getsubject():string
+    public function setFirstName(string $firstName)
     {
-        return $this->subject;
-    }
-
-    public function getcontent():string
-    {
-        return $this->content;
-    }
-
-    public function getFirstName():string
-    {
-        return $this->FirstName;
-    }
-
-    public function getLastName(): string
-    {
-        return $this->LastName;
+        $this->firstName = $firstName;
     }
 
 
-    public function getcreationDate():string
+    public function setLastName(string $lastName)
     {
-        return $this->creationDate;
+        $this->lastName = $lastName;
     }
 
 }

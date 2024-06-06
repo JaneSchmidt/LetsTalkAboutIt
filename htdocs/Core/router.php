@@ -17,7 +17,7 @@ class Router {
               view("resetPassword.php");
               break;
             case "/addArticle":
-              view("addArticle.php");
+              view("addArticleView.php");
               break;
             case "/logout":
               include base_path("Controllers/logoutController.php");
@@ -29,11 +29,13 @@ class Router {
               break;
             case "/getRegistered":
               include base_path("Controllers/registerController.php");
-              RegisterController::registerRequest();
+              $register = new RegisterController();
+              $register->validations();
               break;
             case "/newArticle":
               include base_path("Controllers/addArticleController.php");
-              AddArticleController::addArticle();
+              $addArticle = new AddArticleController();
+              $addArticle->validations();
               break;
             default:
               view("homeView.php");

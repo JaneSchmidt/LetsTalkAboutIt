@@ -18,12 +18,12 @@
                 <?php endif ?>
                 <?php if(isset($_SESSION["first-name"])) : ?>
                   <li><a class="sign-out-button" href="logout">LogOut</a></li>
-                  <li><button class = "dropdown">Profile</button></li>
-                  <div class = "dropdown-content">
-                    <a href = "myArticles">My Articles</a>
-                    <a href = "addArticle">New Article</a>
-                    <a href = "editProfile">Edit Profile</a>
-                  </div>
+                  <li><a class="dropdown">Profile</a>
+                    <ul class="dropdown-content">
+                      <li><a href = "myArticles">My Articles</a></li>
+                      <li><a href = "addArticle">New Article</a></li>
+                      <li><a href = "editProfile">Edit Profile</a></li>
+                    </ul></li>
                 <?php endif ?>
               </ul>
         </div>

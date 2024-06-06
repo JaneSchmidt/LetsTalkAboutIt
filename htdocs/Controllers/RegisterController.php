@@ -5,8 +5,7 @@ include base_path("Models/registerModel.php");
 class RegisterController
 {
 
-    public static function registerRequest()
-    {
+    public function validations(){
         $errors = [];
 
         if($userErr = Validator::string($_POST["username"], 18, 4)){
@@ -38,31 +37,38 @@ class RegisterController
             $errors["username"] = "User already exists";
             
         }
-
         if(!empty($errors)){
             
             view("registerView.php", $errors);
 
         } else {
+            
+            $this->registerRequest($model);
+        
+        }
 
-            $_POST["password"] = password_hash($_POST["password"], PASSWORD_BCRYPT);
-
-            $data = $_POST;
-
-            $user = $model->createUser($data);
-
-            if($user){
-                $message["login"] = "Sign up successful! Please log in.";
-                view("loginView.php", $message);
-                exit();
-
-            } else {
-
-                echo "ERROR";
-                $errors["user"] = "Error in saving data, please try again.";
-                view("registerView.php", $errors);
-
-            }
-        } 
     }
+
+    public function registerRequest(RegisterModel $model)
+    {
+        
+         $_POST["password"] = password_hash($_POST["password"], PASSWORD_BCRYPT);
+
+        $data = $_POST;
+
+        $user = $model->createUser($data);
+
+        if($user){
+            $message["login"] = "Sign up successful! Please log in.";
+            view("loginView.php", $message);
+            exit();
+
+        } else {
+
+            echo "ERROR";
+            $errors["user"] = "Error in saving data, please try again.";
+            view("registerView.php", $errors);
+
+        }
+    } 
 }

@@ -35,7 +35,7 @@
             </div>
 
             <footer class="name-and-date">
-              <h5><?php echo $article->getFirstName() . ", " . $article->getLastName() ?>, <?php echo $article->getCreationDate() ?> </h5>
+              <h5><?php echo $article->getFirstName() . ", " . $article->getLastName() ?> - <?php echo $article->getCreationDate() ?> </h5>
             </footer>
 
           </div>
