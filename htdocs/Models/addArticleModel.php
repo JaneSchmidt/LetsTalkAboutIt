@@ -1,6 +1,6 @@
 <?php
 
-include base_path("Entity/article.php");
+include_once base_path("Entity/article.php");
 
 class AddArticleModel
 {
@@ -45,7 +45,8 @@ class AddArticleModel
         $content = $newArticle->getContent();
 
         $query = "INSERT INTO articles (creationDate, modificationDate, userID, articleSubject, articleContent) 
-                  VALUES (\"$creationDate\", null, \"$userID\", \"$subject\", \"$content\");";
+                  VALUES (\"$creationDate\", null, $userID, '$subject', '$content');";
+        echo $query;
 
         $connection = new Connection();
 

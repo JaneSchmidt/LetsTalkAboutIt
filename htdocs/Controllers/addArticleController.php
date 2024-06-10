@@ -45,7 +45,7 @@ class AddArticleController
         $article = $model->createArticle($date, $id, $_POST["subject"], $_POST["content"]);
 
         if($article){
-            view("homeView.php");
+            header("Location: /");
             exit();
 
         } else {

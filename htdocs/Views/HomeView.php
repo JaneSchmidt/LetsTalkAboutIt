@@ -31,7 +31,16 @@
             </header>
 
             <div class="content">
-              <p> <?php echo $article->getContent() ?> </p>
+              <p> <?php $content = $article->getContent();
+                if (strlen($content)>50){
+                  $_SESSION["current-article"] = serialize($article);
+                  $newContent = substr($content, 0, 500);
+                  echo $newContent . '...';
+                  ?> </br><a class="see-more-button" href="fullArticle">See More</a> <?php
+                  } else {
+                    echo $content; 
+                  }
+                ?> </p>
             </div>
 
             <footer class="name-and-date">

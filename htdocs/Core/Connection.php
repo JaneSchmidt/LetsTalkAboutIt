@@ -28,11 +28,11 @@ class Connection
 
   public function getQueryArray(string $query){
 
-    $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
+    // $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
 
     $rows = [];
 
-    $result = mysqli_query($connection, $query);
+    $result = mysqli_query($this->getConnection(), $query);
 
     while($row = mysqli_fetch_assoc($result)){
 

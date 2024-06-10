@@ -17,6 +17,7 @@
                   <li><a class="sign-up-button" href="register">SignUp</a></li>
                 <?php endif ?>
                 <?php if(isset($_SESSION["first-name"])) : ?>
+                  <li><a class="sign-out-button" href="home">Home</a></li>
                   <li><a class="sign-out-button" href="logout">LogOut</a></li>
                   <li><a class="dropdown">Profile</a>
                     <ul class="dropdown-content">

@@ -19,6 +19,9 @@ class Router {
             case "/addArticle":
               view("addArticleView.php");
               break;
+            case "/fullArticle":
+              view("fullArticleView.php");
+              break;
             case "/logout":
               include base_path("Controllers/logoutController.php");
               LogoutController::logoutRequest();
