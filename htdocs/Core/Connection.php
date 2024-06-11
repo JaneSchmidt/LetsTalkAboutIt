@@ -17,8 +17,6 @@ class Connection
 
   public function getQuerySingle(string $query){
 
-    //$connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
-
     $result = mysqli_query($this->getConnection(), $query);
 
     $row = mysqli_fetch_assoc($result);
@@ -27,8 +25,6 @@ class Connection
   }
 
   public function getQueryArray(string $query){
-
-    // $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
 
     $rows = [];
 
@@ -44,8 +40,6 @@ class Connection
   }
 
   public function postQuery(string $query){
-
-    //$connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, SCHEMA);
 
     $result = mysqli_query($this->getConnection(), $query);
 

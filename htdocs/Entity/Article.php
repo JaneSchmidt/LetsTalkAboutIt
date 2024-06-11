@@ -29,7 +29,7 @@ class Article
         return $this->userID;
     }
 
-    public function getModificationDate(): string
+    public function getModificationDate(): ?string
     {
         return $this->modificationDate;
     }

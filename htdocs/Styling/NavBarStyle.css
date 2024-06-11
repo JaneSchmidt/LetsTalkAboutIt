@@ -1,6 +1,7 @@
 *{
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
 }
 
 .navdiv{
@@ -27,12 +28,13 @@ ul li a{
 
 ul li ul.dropdown-content li{
   display:block;
-  width: 150px;
 }
 
 ul li ul.dropdown-content{
-  position: absolute;
+  position: fixed;
   padding-right: 20px;
+  padding-top: 8px;
+  right: 10px;
   display: none;
   font-size: 18px;
   z-index: 999;
@@ -50,4 +52,9 @@ ul li:hover ul.dropdown-content{
 .sign-in-button, .sign-up-button, .sign-out-button, .dropdown{
   font-size: 28px;
   padding-right: 40px;
+}
+
+ul li ul.dropdown-content li a{
+  padding-top: 4px;
+  padding-bottom: 4px;
 }

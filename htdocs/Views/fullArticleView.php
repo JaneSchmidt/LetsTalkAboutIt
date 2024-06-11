@@ -2,7 +2,7 @@
 <html lang="<?php echo $language; ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../Styling/homeStyle.css">
+    <link rel="stylesheet" href="../Styling/fullArticleStyle.css">
   </head>
     <body class="container">
       <?php 
@@ -12,38 +12,41 @@
 
       <br/>
 
-      <h1 class="header">
-        Let's Talk About It
-      </h1>
+      <div class="blog-post">
+        
+        <?php if(isset($_SESSION["current-article"])){
+          $object = unserialize($_SESSION["current-article"]);
+        ?>
 
-      <div class="blog">
+          <div class="article">
 
-          <div class="blog-post">
-            <?php if(isset($_SESSION["current-article"])){
-                $object = unserialize($_SESSION["current-article"]);
-                var_dump($object);
-              ?>
+            <h1 class="subject"> <?php echo $object->getSubject(); ?> </h1>
+            
+            <h5 class="published-by"><?php echo "Published by" . $object->getFirstName() . " " . $object->getLastName();?> </h5>
 
-              <header class="subject">
-                <h1> <?php echo $object->getSubject(); ?> </h1>
-              </header>
-
-              <div class="content">
-                <p> <?php echo $object->getContent(); ?> </p>
-              </div>
-
-              <footer class="name-and-date">
-                <h5><?php echo $object->getFirstName() . ", " . $object->getLastName(); ?> - 
-                <?php $object->getCreationDate(); ?> </h5>
-              </footer>
-            <?php } else {
-                header("Location: /");
-            } ?>
-
+            <div class="content">
+            <p> <?php echo $object->getContent(); ?> </p>
+            </div>
           </div>
-    
-      </div>
 
+          <footer class="name-and-date">
+            <h5><?php echo "Published on" . $object->getCreationDate(); ?> </h5>
+            <h5><?php if($object->getModificationDate() !== null){
+                    echo "Modified on" . $object->getModificationDate();
+                } ?></h5>
+          </footer>
+            
+        <?php } else {
+          header("Location: /");
+        } ?>
+
+        <?php 
+          include base_path("Attributes/comment.php");
+          if(isset($_SESSION["username"])){
+            include base_path("Attributes/addComment.php");
+          }?>
+        
+      </div>
 
     </body>
 </html>

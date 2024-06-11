@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.article{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.blog-post{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.subject, .published-by{
+    margin-bottom: 10px;
+}

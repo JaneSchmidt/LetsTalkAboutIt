@@ -1,5 +1,4 @@
 fieldset{
-    padding: 20px;
     align-items: center;
     margin: 2em 0;
     padding: 1em 2em;
@@ -18,7 +17,7 @@ input[type=text], input[type=password] {
 
 label{
     display: block;
-    margin-top: 1em;
+    padding: 10px;
   }
 
 .submit-button{
@@ -33,3 +32,14 @@ label{
     border-radius: 4px;
 }
   
+.form{
+  padding-bottom: 40px;
+}
+
+.error{
+  color:red;
+}
+
+.input-tags{
+  padding-bottom: 100px;
+}
