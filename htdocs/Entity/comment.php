@@ -2,26 +2,29 @@
 
 class Comment
 {
-    
     private $content;
-    private $FirstName;
+    private $userID;
+    private $articleID;
     private $creationDate;
-    private $LastName;
+    private $modificationDate;
+    private $firstName;
+    private $lastName;
 
+    //setters
 
     public function setContent(string $content)
     {
         $this->content = $content;
     }
 
-    public function setFirstName(string $FirstName)
+    public function setUserID(string $userID)
     {
-        $this->FirstName = $FirstName;
+        $this->userID = $userID;
     }
 
-    public function setLastName(string $LastName)
+    public function setArticleID(string $articleID)
     {
-        $this->LastName = $LastName;
+        $this->articleID = $articleID;
     }
 
     public function setCreationDate(string $creationDate)
@@ -29,19 +32,38 @@ class Comment
         $this->creationDate = $creationDate;
     }
 
+    public function setModificationDate(string $modificationDate)
+    {
+        $this->modificationDate = $modificationDate;
+    }
+
+    public function getFirstName():string
+    {
+        return $this->firstName;
+    }
+
+
+    public function getLastName():string
+    {
+        return $this->lastName;
+    }
+
+    
+    //getters
+
     public function getcontent():string
     {
         return $this->content;
     }
 
-    public function getFirstName():string
+    public function getUserID():string
     {
-        return $this->FirstName;
+        return $this->userID;
     }
 
-    public function getLastName(): string
+    public function getArticleID(): string
     {
-        return $this->LastName;
+        return $this->articleID;
     }
 
 
@@ -50,4 +72,19 @@ class Comment
         return $this->creationDate;
     }
 
+    public function getModificationDate():?string
+    {
+        return $this->modificationDate;
+    }
+
+    public function setFirstName(string $firstName)
+    {
+        $this->firstName = $firstName;
+    }
+
+
+    public function setLastName(string $lastName)
+    {
+        $this->lastName = $lastName;
+    }
 }

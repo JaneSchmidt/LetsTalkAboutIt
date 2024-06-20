@@ -40,6 +40,11 @@ class Router {
               $addArticle = new AddArticleController();
               $addArticle->validations();
               break;
+            case "/addComment":
+              include base_path("Controllers/addCommentController.php");
+              $addComment = new AddCommentController();
+              $addComment->validations();
+              break;
             default:
               view("homeView.php");
               break; 

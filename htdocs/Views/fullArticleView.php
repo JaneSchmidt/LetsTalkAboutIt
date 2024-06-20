@@ -11,41 +11,52 @@
       ?>
 
       <br/>
-
-      <div class="blog-post">
         
         <?php if(isset($_SESSION["current-article"])){
-          $object = unserialize($_SESSION["current-article"]);
-        ?>
+            $object = unserialize($_SESSION["current-article"]);
+          ?>
+
+      <div class="header">
+        <h1 class="subject"> <?php echo $object->getSubject(); ?> </h1>
+        <h5 class="published-by"><?php echo "Published by " . $object->getFirstName() . " ";
+        if($object->getLastName() !== NULL){ echo $object->getLastName();} echo " on " . $object->getCreationDate();?> </h5>
+      </div>
+
+      <div class="blog-post">
 
           <div class="article">
 
-            <h1 class="subject"> <?php echo $object->getSubject(); ?> </h1>
-            
-            <h5 class="published-by"><?php echo "Published by" . $object->getFirstName() . " " . $object->getLastName();?> </h5>
+            <h5><?php if($object->getModificationDate() !== null){
+                    echo "Modified on" . $object->getModificationDate();
+                } ?></h5>
 
             <div class="content">
             <p> <?php echo $object->getContent(); ?> </p>
             </div>
           </div>
-
-          <footer class="name-and-date">
-            <h5><?php echo "Published on" . $object->getCreationDate(); ?> </h5>
-            <h5><?php if($object->getModificationDate() !== null){
-                    echo "Modified on" . $object->getModificationDate();
-                } ?></h5>
-          </footer>
             
         <?php } else {
           header("Location: /");
         } ?>
 
         <?php 
-          include base_path("Attributes/comment.php");
-          if(isset($_SESSION["username"])){
-            include base_path("Attributes/addComment.php");
-          }?>
-        
+          view("commentView.php");
+          if(isset($_SESSION["username"])): ?>
+
+            <form action = "/addComment" method = "post">
+
+              <input type="text" placeholder="Add comment..." name="comment" value="<?php echo $_POST["comment"] ?? ""?>">
+              <input class="submit-button" type="submit" value="Add Comment"/>
+
+              <?php if(isset($comment)): ?>
+                <p class="error"><?php echo $comment; ?></p>
+              <?php endif ?>
+
+            </form>
+
+          <?php endif; ?>
+
+
       </div>
 
     </body>

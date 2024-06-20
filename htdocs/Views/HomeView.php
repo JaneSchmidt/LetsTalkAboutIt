@@ -52,8 +52,9 @@
               </div>
 
               <footer class="name-and-date">
-                <h5><?php echo $article->getFirstName() . " " .
-                $article->getLastName() ?> - <?php echo $article->getCreationDate() ?> </h5>
+                <h5><?php echo $article->getFirstName() . " ";
+                  if($article->getLastName() !== NULL){ echo $article->getLastName();} 
+                  ?> - <?php echo $article->getCreationDate() ?> </h5>
                 <h5><?php if($article->getModificationDate() !== null){
                     echo $article->getModificationDate();
                 } ?></h5>
