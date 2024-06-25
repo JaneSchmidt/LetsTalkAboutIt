@@ -3,7 +3,8 @@
 class HomeController
 {
 
-// see more
-// change pages
+    public function getArticle(){
+        var_dump($_GET);
+    }
     
 }

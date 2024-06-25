@@ -20,7 +20,9 @@ class Router {
               view("addArticleView.php");
               break;
             case "/fullArticle":
-              view("fullArticleView.php");
+              include base_path("Controllers/homeController.php");
+              $fullArticle = new HomeController();
+              $fullArticle->getArticle();
               break;
             case "/logout":
               include base_path("Controllers/logoutController.php");

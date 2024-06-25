@@ -44,6 +44,11 @@ class AddArticleModel
 
         $content = $newArticle->getContent();
 
+        // escaping single quotes
+        $subject = str_replace("'", "\'", $subject);
+
+        $content = str_replace("'", "\'", $content);
+
         $query = "INSERT INTO articles (creationDate, modificationDate, userID, articleSubject, articleContent) 
                   VALUES (\"$creationDate\", null, $userID, '$subject', '$content');";
         echo $query;

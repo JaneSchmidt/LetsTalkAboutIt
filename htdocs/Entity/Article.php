@@ -10,6 +10,7 @@ class Article
     private $content;
     private $firstName;
     private $lastName;
+    private $articleID;
 
 
     // Getters
@@ -51,6 +52,11 @@ class Article
         return $this->lastName;
     }
 
+    public function getArticleID():int
+    {
+        return $this->articleID;
+    }
+
 
     // Setters
 
@@ -89,6 +95,11 @@ class Article
     public function setLastName(string $lastName)
     {
         $this->lastName = $lastName;
+    }
+
+    public function setArticleID(int $articleID)
+    {
+        $this->articleID = $articleID;
     }
 
 }

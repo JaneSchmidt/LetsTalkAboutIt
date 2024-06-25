@@ -22,9 +22,11 @@ class HomeModel
             exit();
         }
 
-        //var_dump($result);
         foreach ($getArticlesResult as $row) {
+
             $articleObject = new Article();
+
+            $articleObject->setArticleID($row['articleID']);
 
             $articleObject->setSubject($row['articleSubject']);
 

@@ -26,8 +26,9 @@
             $count++;
 
         ?>  
-          <div class="blog-post">
 
+          <div class="blog-post">
+          
             <div class="image">
               <img src="../Attributes/temp-image.jpeg" />
             </div>
@@ -43,10 +44,13 @@
                   if (strlen($content)>50){
                     $_SESSION["current-article"] = serialize($article);
                     $newContent = substr($content, 0, 500);
-                    echo $newContent . '...';
-                    ?> </br><a class="see-more-button" href="fullArticle">See More</a> <?php
-                    } else {
-                      echo $content; 
+                    echo nl2br($newContent . '...');?> 
+                    <form id="myform" action= "/fullArticle" method="get">
+                      <input type="hidden" placeholder="Enter subject" class="subject" name="subject" value = <?php echo $article->getArticleID(); ?>>
+                      </br><button type="submit" id="id" value="value">See More</button>  
+                    </form>
+                    <?php } else {
+                      echo nl2br($content); 
                     }
                   ?> </p>
               </div>

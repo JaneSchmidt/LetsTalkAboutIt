@@ -15,6 +15,7 @@
         <?php if(isset($_SESSION["current-article"])){
             $object = unserialize($_SESSION["current-article"]);
           ?>
+        
 
       <div class="header">
         <h1 class="subject"> <?php echo $object->getSubject(); ?> </h1>
@@ -31,7 +32,7 @@
                 } ?></h5>
 
             <div class="content">
-            <p> <?php echo $object->getContent(); ?> </p>
+            <p> <?php echo nl2br($object->getContent()); ?> </p>
             </div>
           </div>
             
